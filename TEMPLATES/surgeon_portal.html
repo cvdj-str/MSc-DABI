@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Surgeon Portal</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #87CEEB; /* Sky blue background */
+            color: #333;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+        }
+        .container {
+            max-width: 800px;
+            padding: 20px;
+            background-color: #fff; /* White background for the container */
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Soft shadow effect */
+            position: relative;
+        }
+        h1, h2 {
+            text-align: center;
+            color: #333;
+        }
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        li {
+            margin-bottom: 10px;
+            padding: 10px;
+            border-radius: 5px;
+            background-color: #f0f0f0; /* Light gray background for list items */
+        }
+        form {
+            display: inline;
+        }
+        button {
+            background-color: #28a745; /* Green color for buttons */
+            color: #fff;
+            border: none;
+            border-radius: 5px;
+            padding: 5px 10px;
+            cursor: pointer;
+            margin-right: 5px;
+        }
+        a {
+            display: block;
+            text-align: center;
+            margin-top: 20px;
+            text-decoration: none;
+            color: #007bff; /* Blue color for links */
+        }
+        .icon {
+            margin-right: 5px;
+        }
+        .username {
+            position: fixed;
+            top: 10px;
+            left: 10px;
+            z-index: 999; /* Ensure it's on top of other elements */
+        }
+        .logout {
+            position: fixed;
+            top: 10px;
+            right: 10px;
+            z-index: 999; /* Ensure it's on top of other elements */
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Welcome to the Surgeon Portal!</h1>
+        <h2>Suggested Surgeries:</h2>
+        <ul>
+            {% for surgery in surgeries %}
+            <li class="surgery-item">
+                <strong>Surgery Type:</strong> {{ surgery['Surgery Type'] }}<br>
+                <strong>Critical Level:</strong> {{ surgery['Critical Level'] }}<br>
+                <button onclick="showDetailsOnly(this.parentNode)">View Details</button>
+                
+                <div id="details{{ loop.index0 }}" class="surgery-details" style="display:none;">
+                    <strong>Department:</strong> {{ surgery['Department'] }}<br>
+                    <strong>Patient Name:</strong> {{ surgery['Patient Name'] }}<br>
+                    <strong>Age:</strong> {{ surgery['Age'] }}<br>
+                    <strong>Gender:</strong> {{ surgery['Gender'] }}<br>
+                    <strong>Diagnosis:</strong> {{ surgery['Diagnosis'] or "Not provided" }}<br>
+                    <strong>Status:</strong> {{ surgery['Status'] }}<br>
+                    {% if surgery['Status'] == 'Pending' %}
+                        <form action="{{ url_for('process_surgery') }}" method="post">
+                            <input type="hidden" name="surgeon_name" value="{{ username }}">
+                            <input type="hidden" name="surgery_type" value="{{ surgery['Surgery Type'] }}">
+                            <button type="submit" name="action" value="accept">Accept</button>
+                            <button type="submit" name="action" value="reject">Reject</button>
+                        </form>
+                    {% else %}
+                        <strong>Final Status:</strong> {{ surgery['Status'] }}
+                    {% endif %}
+                    <br>
+                    <button onclick="resetView()">Back to List</button>
+                </div>
+            </li>
+            {% endfor %}
+        </ul>
+        <a href="/surgeon_schedule/{{ username }}">View Surgeon Schedule</a><br>
+    </div>
+    <p class="username"><i class="fas fa-user icon"></i>{{ username }}</p>
+    <a class="logout" href="{{ url_for('logout') }}"><i class="fas fa-sign-out-alt icon"></i>Logout</a>
+</body>
+<script>
+function showDetailsOnly(liElement) {
+    document.querySelector('h1').style.display = 'none';
+    document.querySelector('h2').style.display = 'none';
+    document.querySelector('a[href*="surgeon_schedule"]').style.display = 'none'; // Hides the "View Surgeon Schedule" link
+    document.querySelectorAll('.surgery-item').forEach(item => item.style.display = 'none'); // Hide all surgery items
+
+    liElement.querySelector('.surgery-details').style.display = 'block';
+    liElement.style.display = 'block'; // Show the parent li element
+    liElement.querySelector('button').style.display = 'none'; // Hide the "View Details" button
+}
+
+function resetView() {
+    document.querySelector('h1').style.display = 'block';
+    document.querySelector('h2').style.display = 'block';
+    document.querySelector('a[href*="surgeon_schedule"]').style.display = 'block'; // Show the "View Surgeon Schedule" link
+    document.querySelectorAll('.surgery-item').forEach(item => {
+        item.style.display = 'block'; // Show all surgery items
+        item.querySelector('button').style.display = 'block'; // Show the "View Details" button
+    });
+    document.querySelectorAll('.surgery-details').forEach(detail => detail.style.display = 'none'); // Hide all details
+}
+</script>
+</html>

@@ -1,0 +1,21 @@
+Surgeon ID,Surgeon Name,Surgeon Specialty,Working Hours,On-Call Day,Vacation Day
+1,Anderson,"['Lung Resection', 'Colonoscopy', 'Mastectomy']",06:00 - 16:00,Thursday,30-05-2023
+2,Brown,"['Deep Brain Stimulation', 'Brain Surgery', 'Spinal Fusion']",06:00 - 16:00,Sunday,05-06-2024
+3,Davis,"['Spinal Fusion', 'Brain Surgery', 'Deep Brain Stimulation']",06:00 - 16:00,Tuesday,11-06-2023
+4,Garcia,"['Brain Surgery', 'Deep Brain Stimulation', 'Spinal Fusion']",06:00 - 16:00,Sunday,16-04-2023
+5,Gonzalez,"['Knee Replacement', 'Hip Replacement', 'Rotator Cuff Repair']",06:00 - 16:00,Sunday,21-03-2025
+6,Hernandez,"['Rotator Cuff Repair', 'Hip Replacement', 'Knee Replacement']",06:00 - 16:00,Monday,18-05-2023
+7,Jackson,"['Rotator Cuff Repair', 'Knee Replacement', 'Hip Replacement']",06:00 - 16:00,Tuesday,19-05-2024
+8,Johnson,"['Mastectomy', 'Colonoscopy', 'Lung Resection']",06:00 - 16:00,Saturday,10-09-2024
+9,Jones,"['Kidney Stone Removal', 'Prostatectomy', 'Bladder Surgery']",06:00 - 16:00,Friday,07-03-2024
+10,Lopez,"['Prostatectomy', 'Bladder Surgery', 'Kidney Stone Removal']",06:00 - 16:00,Tuesday,21-01-2024
+11,Martinez,"['Rotator Cuff Repair', 'Knee Replacement', 'Hip Replacement']",06:00 - 16:00,Thursday,27-11-2023
+12,Miller,"['Pacemaker Implantation', 'Angioplasty', 'Heart Bypass Surgery']",06:00 - 16:00,Tuesday,15-10-2024
+13,Moore,"['Prostatectomy', 'Kidney Stone Removal', 'Bladder Surgery']",06:00 - 16:00,Thursday,11-03-2025
+14,Rodriguez,"['Prostatectomy', 'Kidney Stone Removal', 'Bladder Surgery']",06:00 - 16:00,Tuesday,22-07-2024
+15,Smith,"['Colonoscopy', 'Mastectomy', 'Lung Resection']",06:00 - 16:00,Friday,29-06-2024
+16,Taylor,"['Bladder Surgery', 'Kidney Stone Removal', 'Prostatectomy']",06:00 - 16:00,Friday,06-08-2024
+17,Thomas,"['Pacemaker Implantation', 'Angioplasty', 'Heart Bypass Surgery']",06:00 - 16:00,Friday,01-06-2024
+18,White,"['Rotator Cuff Repair', 'Knee Replacement', 'Hip Replacement']",06:00 - 16:00,Tuesday,24-01-2025
+19,Williams,"['Angioplasty', 'Pacemaker Implantation', 'Heart Bypass Surgery']",06:00 - 16:00,Monday,16-10-2023
+20,Wilson,"['Angioplasty', 'Heart Bypass Surgery', 'Pacemaker Implantation']",06:00 - 16:00,Sunday,19-11-2023

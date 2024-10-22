@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Staff Login</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <style>
+        body {
+            background-image: url('{{ url_for('static', filename='Staff_login.png') }}');
+            background-size: cover; /* Cover the entire background */
+            background-position: center; /* Center the background image */
+            height: 100vh; /* Set the height of the body to full viewport height */
+            margin: 0; /* Remove default margin */
+            display: flex;
+            align-items: center;
+        }
+
+        .container {
+            width: 350px; /* Adjust the width as needed */
+            background-color: rgba(255, 255, 255, 0.8); /* Background color with opacity */
+            padding: 20px;
+            border-radius: 10px;
+            margin-left: 150px; /* Move the container to the left */
+        }
+
+        /* Style for the input fields */
+        input[type="text"],
+        input[type="password"] {
+            width: 100%; /* Full width */
+            padding: 10px; /* Padding inside the input fields */
+            margin-bottom: 15px; /* Spacing between input fields */
+            border: 1px solid #ccc; /* Border color */
+            border-radius: 5px; /* Rounded corners */
+            box-sizing: border-box; /* Include padding and border in the width */
+        }
+
+        /* Style for the role selection */
+        .role-selection {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 20px;
+        }
+
+        .role-option {
+            text-align: center;
+            cursor: pointer;
+            transition: transform 0.3s ease;
+            flex-grow: 1; /* Allow the role options to grow and take up available space */
+            margin: 0 10px; /* Add margin to create space between the role options */
+        }
+
+        .role-option:hover {
+            transform: translateY(-5px);
+        }
+
+        .role-icon {
+            font-size: 36px;
+            color: #4CAF50; /* Green color */
+            margin-bottom: 10px;
+        }
+
+        .role-label {
+            font-size: 14px;
+            color: #333;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Staff Login</h1>
+        <form id="loginForm" method="post">
+            <label for="username">Username:</label><br>
+            <input type="text" id="username" name="username" required><br>
+            <label for="password">Password:</label><br>
+            <input type="password" id="password" name="password" required><br><br>
+            <div class="role-selection">
+                <div class="role-option" onclick="submitForm('staff')">
+                    <i class="fas fa-user-nurse role-icon"></i>
+                    <p class="role-label">Doctor</p>
+                </div>
+                <div class="role-option" onclick="submitForm('surgeon')">
+                    <i class="fas fa-user-md role-icon"></i>
+                    <p class="role-label">Surgeon</p>
+                </div>
+            </div>
+            <input type="hidden" id="role" name="role">
+        </form>
+    </div>
+
+    <script>
+        function submitForm(role) {
+            document.getElementById('role').value = role || '';
+            document.getElementById('loginForm').submit();
+        }
+    </script>
+</body>
+</html>

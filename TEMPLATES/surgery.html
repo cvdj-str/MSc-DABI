@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Surgeon Prediction</title>
+    <!-- Include jQuery from CDN -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #87CEEB; /* Sky blue background */
+            color: #333;
+            margin: 0;
+            padding: 20px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh; /* Ensure the body covers the entire viewport height */
+        }
+        form {
+            width: 50%; /* Stretch the form horizontally */
+            padding: 20px;
+            background-color: #fff; /* White background for the form */
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Soft shadow effect */
+            min-height: 100px; /* Maintain a minimum height */
+        }
+        h2 {
+            text-align: center;
+            color: #333;
+            margin-bottom: 20px;
+        }
+        label {
+            font-weight: bold;
+        }
+        input[type="text"],
+        select {
+            width: calc(100% - 22px); /* Adjust for padding and border */
+            padding: 10px;
+            margin-bottom: 20px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+        input[type="submit"] {
+            background-color: #28a745; /* Green color for submit button */
+            color: #fff;
+            border: none;
+            border-radius: 5px;
+            padding: 10px 20px;
+            cursor: pointer;
+            width: 100%;
+            font-size: 16px;
+        }
+        input[type="submit"]:hover {
+            background-color: #218838; /* Darker green color on hover */
+        }
+    </style>
+</head>
+<body>
+    <form method="post" action="/predict">
+        <h2>Enter Patient Details:</h2>
+        <label for="patient_name">Patient Name:</label><br>
+        <input type="text" id="patient_name" name="patient_name" required><br>
+
+        <label for="age">Age:</label><br>
+        <input type="text" id="age" name="age" required><br>
+
+        <label for="gender">Gender:</label><br>
+        <select id="gender" name="gender" required>
+            <option value="">Select Gender</option>
+            <option value="Male">Male</option>
+            <option value="Female">Female</option>
+        </select><br>
+
+        <label for="department">Department:</label><br>
+        <select id="department" name="department" required>
+            <option value="">Select Department</option>
+            {% for department in departments %}
+                <option value="{{ department }}">{{ department }}</option>
+            {% endfor %}
+        </select><br>
+       <label for="diagnosis">Diagnosis:</label><br>
+       <input type="text" id="diagnosis" name="diagnosis"><br> <!-- Optional field -->
+
+        <label for="surgery_type">Surgery Type:</label><br>
+        <select id="surgery_type" name="surgery_type" required>
+            <option value="">Select Surgery Type</option>
+        </select><br>
+
+        <label for="critical_level">Critical Level (1-5):</label><br>
+        <input type="text" id="critical_level" name="critical_level" required><br>
+
+        <input type="submit" value="Predict">
+    </form>
+
+    <script>
+        // Populate surgery types based on selected department
+        var departmentSurgeryMap = {{ department_surgery_map | tojson }};
+        $('#department').change(function(){
+            var selectedDepartment = $(this).val();
+            var surgeryTypes = departmentSurgeryMap[selectedDepartment] || [];
+            var options = "<option value=''>Select Surgery Type</option>";
+            for(var i=0; i<surgeryTypes.length; i++){
+                options += "<option value='" + surgeryTypes[i] + "'>" + surgeryTypes[i] + "</option>";
+            }
+            $('#surgery_type').html(options);
+        });
+    </script>
+</body>
+</html>

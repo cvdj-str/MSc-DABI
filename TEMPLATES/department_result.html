@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Result</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #7ec8e3; /* Sky blue background color */
+            color: #333;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+        .container {
+            max-width: 600px;
+            padding: 20px;
+            background-color: rgba(255, 255, 255, 0.8); /* Transparent white background for container */
+            border-radius: 10px;
+            box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.1); /* Box shadow for container */
+            text-align: center;
+        }
+        h1 {
+            color: #0072ff; /* Blue color for heading */
+            margin-bottom: 20px;
+        }
+        p {
+            font-size: 18px;
+            margin-bottom: 20px;
+            color: #555; /* Dark gray color for text */
+        }
+        .department {
+            font-weight: bold;
+            color: #4CAF50; /* Green color for highlighted department */
+        }
+        .back-to-booking {
+            display: inline-block;
+            background-color: #0072ff; /* Blue color for button background */
+            color: white;
+            padding: 10px 20px;
+            border-radius: 5px;
+            text-decoration: none;
+            font-weight: bold;
+            transition: background-color 0.3s;
+        }
+        .back-to-booking:hover {
+            background-color: #0056b3; /* Darker blue color on hover */
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Result</h1>
+<p>We recommend booking an appointment with the <span class="department">{{ department }}</span> department.</p>
+<a href="http://localhost:5000/patient_dashboard#bookingForm" class="back-to-booking">⟵ Back to booking</a>
+
+    </div>
+</body>
+</html>

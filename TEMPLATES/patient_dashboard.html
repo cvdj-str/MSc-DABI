@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Patient Dashboard</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #7ec8e3; /* Sky blue background color */
+            color: #333;
+            text-align: center; /* Center text horizontally */
+        }
+        .header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 20px;
+            background-color: #ffffff; /* White background for header */
+        }
+        .user-info {
+            display: flex;
+            align-items: center;
+        }
+        .user-icon {
+            font-size: 32px;
+            color: #0072ff; /* Blue color for user icon */
+            margin-right: 10px;
+        }
+        .user-name {
+            font-size: 20px;
+            color: #0072ff; /* Blue color for user name */
+        }
+        .logout-icon {
+            font-size: 24px;
+            color: #0072ff; /* Blue color for logout icon */
+            cursor: pointer;
+        }
+        .content {
+            padding: 20px;
+            display: flex;
+            flex-direction: column;
+            align-items: center; /* Center horizontally */
+            justify-content: center; /* Center vertically */
+            animation: fadeIn 1s ease-in-out; /* Fade-in animation */
+        }
+        .book-appointment {
+            background-color: #0072ff; /* Blue color for book appointment button */
+            color: white; /* White text color for book appointment button */
+            padding: 12px 20px;
+            border-radius: 5px;
+            text-decoration: none;
+            font-size: 18px;
+            transition: background-color 0.3s;
+            margin-bottom: 20px; /* Add margin to create space between button and additional content */
+        }
+        .book-appointment:hover {
+            background-color: #0056b3; /* Darker blue color on hover */
+        }
+        .additional-content {
+            margin-top: 20px;
+        }
+        .section {
+            background-color: #ffffff; /* White background for sections */
+            padding: 20px;
+            border-radius: 5px;
+            margin-bottom: 20px;
+        }
+        .section h2 {
+            color: #0072ff; /* Blue color for section headings */
+        }
+        .section p {
+            font-size: 16px;
+            line-height: 1.6;
+            color: #333;
+        }
+        .tip {
+            font-style: italic;
+            color: #0072ff; /* Blue color for tips */
+        }
+        .faq {
+            text-align: left;
+        }
+        .faq h3 {
+            margin-top: 0;
+            color: #0072ff; /* Blue color for FAQ headings */
+        }
+        .faq p {
+            font-size: 16px;
+            line-height: 1.6;
+            color: #333;
+        }
+        .hidden {
+            display: none;
+        }
+        .question-container {
+            animation: appear 1s ease-in-out; /* Question appearance animation */
+            background-color: #ffffff; /* White background for question container */
+            padding: 20px;
+            border-radius: 5px;
+            margin-bottom: 20px;
+        }
+        @keyframes appear {
+            from {
+                opacity: 0;
+                transform: translateY(-50%);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+                transform: translateY(-20px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+        .appointment-section {
+            background-color: #ffffff; /* White background for appointment container */
+            padding: 20px;
+            border-radius: 5px;
+            margin-bottom: 20px;
+        }
+        .department-label {
+            font-size: 16px;
+            margin-bottom: 10px;
+            color: #333;
+        }
+        select {
+            width: 100%;
+            padding: 10px;
+            margin-top: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            background-color: white; /* White background for dropdown */
+            font-size: 16px;
+            color: #333; /* Black color for dropdown text */
+            appearance: none;
+            outline: none;
+            cursor: pointer;
+        }
+        select:focus {
+            border-color: #0072ff; /* Blue border color when focused */
+        }
+        .book-appointment-btn {
+            background-color: #4CAF50; /* Green background color */
+            color: white;
+            padding: 12px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 16px;
+            transition: background-color 0.3s, transform 0.2s;
+            animation: slideInUp 1s ease-in-out; /* Slide-in animation */
+        }
+        .book-appointment-btn:hover {
+            background-color: #45a049; /* Darker green color on hover */
+        }
+        .book-appointment-btn:active {
+            background-color: #3e8e41; /* Dark green color when clicked */
+            transform: translateY(2px); /* Move button down slightly when clicked */
+        }
+        @keyframes slideInUp {
+            from {
+                opacity: 0;
+                transform: translateY(20px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <div class="user-info">
+            <i class="fas fa-user user-icon"></i>
+            <div class="user-name">{{ username }}</div>
+        </div>
+        <i class="fas fa-sign-out-alt logout-icon" onclick="location.href='{{ url_for('home') }}'"></i>
+    </div>
+    <div class="content">
+        <!-- Booking Appointment Link -->
+        <a href="#" id="bookingLink" class="book-appointment">Book Appointment</a>
+
+        <!-- Additional Content for Patients -->
+        <div class="additional-content">
+            <div class="section">
+                <h2>Health Tips</h2>
+                <p>Remember to stay hydrated and get regular exercise. Here's a health tip: <span class="tip">Take breaks to stretch if you sit for long periods.</span></p>
+            </div>
+            <div class="section">
+                <h2>Appointment Reminders</h2>
+                <p>Don't forget about your upcoming appointments. We're here to help you stay on track with your healthcare.</p>
+            </div>
+            <div class="section faq">
+                <h2>FAQ (Frequently Asked Questions)</h2>
+                <h3>How do I reschedule an appointment?</h3>
+                <p>To reschedule an appointment, please contact our reception desk at <a href="tel:123-456-7890">123-456-7890</a>.</p>
+                <h3>What should I bring to my appointment?</h3>
+                <p>It's helpful to bring your insurance card, identification, and any relevant medical records or medications.</p>
+                <h3>How can I request a prescription refill?</h3>
+                <p>To request a prescription refill, you can call our pharmacy or submit a request through our patient portal.</p>
+            </div>
+        </div>
+
+        <!-- Question Section -->
+        <div id="questionSection" class="hidden">
+            <div class="question-container">
+                <p>Do you know which department you want to book an appointment with?</p>
+                <button id="yesButton" class="book-appointment">Yes</button>
+                <button id="noButton" class="book-appointment">No</button>
+            </div>
+        </div>
+
+        <!-- Department Suggestion Section -->
+        <div id="departmentSuggestion" class="hidden">
+            <!-- Symptom Classifier Section -->
+            <div class="section">
+                <h2>Get Personalized Department Suggestions</h2>
+                <p class="quote">"Find the right specialist for your symptoms with ease."</p>
+                <form action="/suggest" method="post">
+                    <label for="symptoms">Please describe your symptoms:</label><br>
+                    <textarea id="symptoms" name="symptoms" rows="4" cols="50" placeholder="Enter your symptoms here..."></textarea><br>
+                    <input type="submit" value="Get Suggestions" class="book-appointment">
+                </form>
+            </div>
+        </div>
+
+        <!-- Booking Form Section -->
+        <div id="bookingForm" class="hidden">
+            <!-- Book Appointment Section -->
+            <div class="appointment-section">
+                <form id="appointment-form" action="/book_appointment" method="POST">
+                    <div class="department-section">
+                        <label for="department" class="department-label">Department:</label>
+                        <select name="department" id="department">
+                            <option value="Cardiology">Cardiology</option>
+                            <option value="Orthopedics">Orthopedics</option>
+                            <option value="Allergy and Immunology">Allergy and Immunology</option>
+                            <option value="Colorectal Surgery">Colorectal Surgery</option>
+                            <option value="Dentistry">Dentistry</option>
+                            <option value="Dermatology">Dermatology</option>
+                            <option value="Endocrinology">Endocrinology</option>
+                            <option value="ENT">ENT</option>
+                            <option value="Gastroenterology">Gastroenterology</option>
+                            <option value="Hematology">Hematology</option>
+                            <option value="Immunology">Immunology</option>
+                            <option value="Infectious Diseases">Infectious Diseases</option>
+                            <option value="Internal Medicine">Internal Medicine</option>
+                            <option value="Neurology">Neurology</option>
+                            <option value="Obstetrics/Gynecology">Obstetrics/Gynecology</option>
+                            <option value="Oncology">Oncology</option>
+                            <option value="Ophthalmology">Ophthalmology</option>
+                            <option value="Orthopedics">Orthopedics</option>
+                            <option value="Psychiatry">Psychiatry</option>
+                            <option value="Pulmonology">Pulmonology</option>
+                            <option value="Rheumatology">Rheumatology</option>
+                            <option value="Sleep Medicine">Sleep Medicine</option>
+                            <option value="Surgery">Surgery</option>
+                            <option value="Urology">Urology</option>
+                            <option value="Vascular Surgery">Vascular Surgery</option>
+                        </select>
+                    </div>
+                    <label for="date" class="department-label">Select Date:</label>
+                    <select name="date" id="date">
+                        <!-- Options for dates will be populated dynamically using JavaScript -->
+                    </select>
+                    <label for="time_slot" class="department-label">Select Time Slot:</label>
+                    <select name="time_slot" id="time_slot">
+                        <!-- Options for time slots will be populated dynamically using JavaScript -->
+                    </select>
+                    <button type="submit" class="book-appointment-btn">Book Appointment</button>
+                </form>
+            </div>
+        </div>
+    </div>
+<script>
+    // Event listener for changing the department dropdown
+    document.getElementById('department').addEventListener('change', function() {
+        var department = this.value;
+        fetch('/get_dates', {
+            method: 'POST',
+            body: new URLSearchParams({ department: department }),
+            headers: { 'Content-Type': 'application/x-www-form-urlencoded' }
+        })
+        .then(response => response.text())
+        .then(html => {
+            document.getElementById('date').innerHTML = html;
+            // Automatically trigger the change event for the date dropdown to fetch timeslots
+            document.getElementById('date').dispatchEvent(new Event('change'));
+        });
+    });
+
+    // Event listener for changing the date dropdown
+    document.getElementById('date').addEventListener('change', function() {
+        var date = this.value;
+        var department = document.getElementById('department').value;
+        fetch('/get_times', {
+            method: 'POST',
+            body: new URLSearchParams({ date: date, department: department }),
+            headers: { 'Content-Type': 'application/x-www-form-urlencoded' }
+        })
+        .then(response => response.text())
+        .then(html => {
+            document.getElementById('time_slot').innerHTML = html;
+        });
+    });
+
+    // Event listener for "Yes" button in the question section
+    document.getElementById('yesButton').addEventListener('click', function() {
+        document.getElementById('questionSection').style.display = 'none';
+        document.getElementById('departmentSuggestion').style.display = 'none';
+        document.getElementById('bookingForm').style.display = 'block';
+        
+        // Change URL hash to #bookingForm
+        window.location.hash = 'bookingForm';
+    });
+
+    // Event listener for clicking the booking link
+    document.getElementById('bookingLink').addEventListener('click', function() {
+        document.getElementById('bookingLink').style.display = 'none';
+        document.getElementById('questionSection').style.display = 'block';
+        // Hide additional content for patients when booking appointment is clicked
+        document.querySelector('.additional-content').style.display = 'none';
+    });
+
+    // Event listener for "No" button in the question section
+    document.getElementById('noButton').addEventListener('click', function() {
+        document.getElementById('questionSection').style.display = 'none';
+        document.getElementById('bookingForm').style.display = 'none';
+        document.getElementById('departmentSuggestion').style.display = 'block';
+    });
+</script>
+</body>
+</html>

@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>New Booking Details</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #cce5ff; /* Lighter blue background */
+            color: #333;
+            margin: 0;
+            padding: 20px;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #f0f8ff; /* Light blue background for the container */
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Soft shadow effect */
+        }
+        h1 {
+            text-align: center;
+            color: #333;
+        }
+        .booking-details {
+            margin-top: 20px;
+        }
+        .booking-details table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+        .booking-details th, .booking-details td {
+            padding: 10px;
+            border-bottom: 1px solid #ddd;
+            text-align: left;
+        }
+        .booking-details th {
+            background-color: #f0f0f0; /* Light gray background for table headers */
+        }
+        .back-link {
+            display: block;
+            text-align: center;
+            margin-top: 20px;
+        }
+        .back-link a {
+            color: #fff; /* White text */
+            text-decoration: none;
+            background-color: #28a745; /* Green button */
+            padding: 10px 20px;
+            border-radius: 5px;
+            transition: background-color 0.3s ease;
+        }
+        .back-link a:hover {
+            background-color: #218838; /* Darker green on hover */
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>New Booking Details</h1>
+        <div class="booking-details">
+            <table>
+                <tr>
+                    <th>Attribute</th>
+                    <th>Value</th>
+                </tr>
+                <tr>
+                    <td>Booking ID</td>
+                    <td>{{ new_booking_details['Booking ID'] }}</td>
+                </tr>
+                <tr>
+                    <td>Date and Time</td>
+                    <td>{{ new_booking_details['Date and Time'] }}</td>
+                </tr>
+                <!-- Add more rows for other booking details -->
+                <!-- Example: -->
+                <tr>
+                    <td>Assigned Surgeon</td>
+                    <td>{{ new_booking_details['Assigned Surgeon'] }}</td>
+                </tr>
+                <tr>
+                    <td>Surgery Type</td>
+                    <td>{{ new_booking_details['Surgery Type'] }}</td>
+                </tr>
+                <!-- Add more rows as needed -->
+            </table>
+        </div>
+        <div class="back-link">
+            <a href="/surgeon_portal">Back to Surgeon Portal</a>
+        </div>
+    </div>
+</body>
+</html>

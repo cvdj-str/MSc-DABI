@@ -1,0 +1,1001 @@
+Age,Gender,Department,Surgery Type,Critical Level,Surgeon Name,Surgeon Rating
+71,Male,Cardiology,Angioplasty,4,Dr. Wilson,4.6
+39,Male,Urology,Prostatectomy,2,Dr. Rodriguez,4.5
+34,Male,Orthopedics,Rotator Cuff Repair,1,Dr. Martinez,3.6
+28,Male,Cardiology,Pacemaker Implantation,2,Dr. Miller,3.9
+18,Male,Oncology,Lung Resection,2,Dr. Anderson,4.1
+60,Female,Oncology,Colonoscopy,3,Dr. Smith,4.3
+86,Female,Urology,Prostatectomy,2,Dr. Lopez,3.1
+69,Female,Urology,Kidney Stone Removal,1,Dr. Jones,4.9
+21,Female,Urology,Prostatectomy,5,Dr. Moore,3.4
+78,Male,Oncology,Mastectomy,5,Dr. Johnson,4.5
+34,Female,Orthopedics,Rotator Cuff Repair,2,Dr. Martinez,4.9
+76,Male,Urology,Kidney Stone Removal,1,Dr. Rodriguez,3.7
+60,Male,Orthopedics,Knee Replacement,4,Dr. Gonzalez,4
+67,Male,Oncology,Colonoscopy,5,Dr. Smith,3.2
+18,Female,Orthopedics,Knee Replacement,2,Dr. Martinez,4.4
+44,Male,Oncology,Colonoscopy,1,Dr. Anderson,4.3
+49,Female,Cardiology,Angioplasty,2,Dr. Miller,3.8
+76,Male,Orthopedics,Rotator Cuff Repair,1,Dr. White,3.3
+71,Female,Oncology,Colonoscopy,2,Dr. Anderson,3.3
+26,Male,Cardiology,Heart Bypass Surgery,2,Dr. Miller,4.7
+25,Female,Urology,Prostatectomy,3,Dr. Jones,3.6
+73,Female,Urology,Bladder Surgery,2,Dr. Jones,3.9
+90,Female,Cardiology,Heart Bypass Surgery,2,Dr. Miller,3.2
+77,Male,Oncology,Lung Resection,5,Dr. Anderson,4.6
+67,Male,Neurology,Spinal Fusion,4,Dr. Davis,4.8
+33,Male,Cardiology,Heart Bypass Surgery,2,Dr. Wilson,3.8
+49,Female,Cardiology,Angioplasty,4,Dr. Williams,3.7
+30,Female,Urology,Kidney Stone Removal,4,Dr. Rodriguez,3.7
+50,Female,Orthopedics,Knee Replacement,2,Dr. Gonzalez,3.1
+54,Male,Oncology,Mastectomy,1,Dr. Smith,3
+19,Male,Oncology,Colonoscopy,5,Dr. Anderson,4
+40,Male,Cardiology,Pacemaker Implantation,4,Dr. Miller,3.9
+73,Female,Cardiology,Pacemaker Implantation,3,Dr. Thomas,3.9
+43,Male,Cardiology,Pacemaker Implantation,4,Dr. Miller,3.8
+77,Female,Orthopedics,Rotator Cuff Repair,1,Dr. Martinez,4.9
+64,Male,Oncology,Lung Resection,4,Dr. Smith,4.1
+42,Male,Urology,Bladder Surgery,4,Dr. Taylor,3.6
+48,Female,Orthopedics,Knee Replacement,3,Dr. Martinez,4.3
+24,Male,Urology,Kidney Stone Removal,5,Dr. Moore,3.9
+83,Male,Urology,Prostatectomy,2,Dr. Jones,3.3
+89,Male,Urology,Prostatectomy,3,Dr. Lopez,4.6
+72,Female,Oncology,Colonoscopy,2,Dr. Anderson,4.2
+43,Female,Neurology,Brain Surgery,2,Dr. Davis,4.3
+65,Female,Oncology,Colonoscopy,4,Dr. Anderson,3.3
+67,Female,Neurology,Deep Brain Stimulation,1,Dr. Davis,4.8
+81,Male,Orthopedics,Hip Replacement,3,Dr. Martinez,4.1
+50,Male,Cardiology,Pacemaker Implantation,1,Dr. Williams,3.3
+20,Female,Cardiology,Pacemaker Implantation,1,Dr. Williams,4.6
+51,Male,Orthopedics,Rotator Cuff Repair,4,Dr. Hernandez,4.7
+85,Male,Neurology,Brain Surgery,4,Dr. Garcia,4.9
+60,Male,Urology,Prostatectomy,5,Dr. Jones,3.5
+34,Female,Orthopedics,Knee Replacement,5,Dr. Gonzalez,3.2
+55,Male,Orthopedics,Hip Replacement,4,Dr. Martinez,3.8
+58,Male,Urology,Bladder Surgery,3,Dr. Jones,3.9
+69,Female,Orthopedics,Knee Replacement,4,Dr. White,3.5
+21,Male,Orthopedics,Hip Replacement,5,Dr. Martinez,4.7
+35,Male,Neurology,Deep Brain Stimulation,2,Dr. Garcia,3.4
+81,Male,Cardiology,Pacemaker Implantation,1,Dr. Thomas,3.8
+77,Male,Orthopedics,Rotator Cuff Repair,5,Dr. Hernandez,3.4
+72,Male,Neurology,Spinal Fusion,4,Dr. Garcia,4.5
+46,Female,Orthopedics,Rotator Cuff Repair,2,Dr. Jackson,3.6
+24,Female,Oncology,Mastectomy,2,Dr. Anderson,3.7
+59,Male,Urology,Kidney Stone Removal,1,Dr. Moore,4.6
+78,Male,Cardiology,Heart Bypass Surgery,3,Dr. Wilson,3.6
+75,Male,Oncology,Lung Resection,3,Dr. Anderson,3.3
+37,Female,Orthopedics,Hip Replacement,4,Dr. Hernandez,3.3
+85,Female,Neurology,Spinal Fusion,3,Dr. Garcia,4.1
+52,Female,Urology,Kidney Stone Removal,1,Dr. Rodriguez,3.7
+23,Male,Neurology,Deep Brain Stimulation,4,Dr. Brown,3.9
+72,Male,Urology,Kidney Stone Removal,3,Dr. Rodriguez,3.9
+58,Female,Urology,Kidney Stone Removal,3,Dr. Taylor,4.7
+42,Female,Neurology,Deep Brain Stimulation,5,Dr. Brown,3.9
+88,Male,Orthopedics,Hip Replacement,4,Dr. White,5
+22,Female,Orthopedics,Knee Replacement,5,Dr. Martinez,4.5
+85,Female,Orthopedics,Hip Replacement,3,Dr. Gonzalez,5
+25,Female,Urology,Bladder Surgery,4,Dr. Jones,4.3
+50,Female,Orthopedics,Knee Replacement,5,Dr. Hernandez,4.8
+45,Male,Urology,Bladder Surgery,1,Dr. Taylor,4.9
+38,Female,Cardiology,Pacemaker Implantation,2,Dr. Wilson,4.3
+40,Female,Orthopedics,Knee Replacement,2,Dr. Hernandez,3.7
+27,Male,Urology,Kidney Stone Removal,1,Dr. Moore,3.3
+66,Male,Urology,Bladder Surgery,3,Dr. Lopez,4.5
+74,Female,Urology,Bladder Surgery,4,Dr. Jones,3.1
+34,Female,Urology,Prostatectomy,5,Dr. Lopez,4.1
+76,Female,Orthopedics,Hip Replacement,4,Dr. Gonzalez,4.8
+69,Male,Orthopedics,Hip Replacement,3,Dr. Gonzalez,4.7
+29,Male,Orthopedics,Rotator Cuff Repair,3,Dr. Hernandez,3.9
+89,Female,Orthopedics,Knee Replacement,5,Dr. Gonzalez,3.4
+48,Male,Oncology,Mastectomy,2,Dr. Anderson,4.8
+19,Male,Oncology,Mastectomy,3,Dr. Anderson,3.4
+77,Female,Urology,Bladder Surgery,3,Dr. Moore,4
+20,Female,Urology,Prostatectomy,3,Dr. Rodriguez,3.1
+62,Male,Orthopedics,Hip Replacement,4,Dr. Gonzalez,4.5
+89,Female,Urology,Kidney Stone Removal,3,Dr. Moore,3.9
+80,Male,Cardiology,Heart Bypass Surgery,5,Dr. Miller,4.7
+88,Male,Orthopedics,Hip Replacement,2,Dr. Hernandez,4.7
+80,Male,Oncology,Mastectomy,5,Dr. Smith,3.1
+47,Female,Oncology,Mastectomy,2,Dr. Smith,3.9
+23,Female,Orthopedics,Knee Replacement,5,Dr. Jackson,3
+47,Female,Urology,Bladder Surgery,5,Dr. Jones,3.1
+21,Male,Cardiology,Angioplasty,5,Dr. Thomas,4.4
+89,Male,Cardiology,Angioplasty,4,Dr. Williams,4.1
+71,Male,Neurology,Deep Brain Stimulation,3,Dr. Garcia,3.8
+52,Male,Neurology,Brain Surgery,2,Dr. Garcia,4
+18,Female,Orthopedics,Rotator Cuff Repair,4,Dr. Martinez,4.4
+89,Female,Urology,Kidney Stone Removal,1,Dr. Taylor,3
+71,Male,Urology,Kidney Stone Removal,5,Dr. Moore,3.6
+59,Female,Cardiology,Heart Bypass Surgery,5,Dr. Williams,3.4
+56,Female,Neurology,Deep Brain Stimulation,1,Dr. Garcia,3.7
+60,Male,Orthopedics,Hip Replacement,4,Dr. Hernandez,4.6
+52,Female,Neurology,Brain Surgery,2,Dr. Brown,3.9
+51,Female,Oncology,Mastectomy,2,Dr. Smith,4.3
+26,Female,Oncology,Colonoscopy,5,Dr. Anderson,4.1
+60,Male,Cardiology,Angioplasty,1,Dr. Wilson,3.8
+83,Female,Neurology,Deep Brain Stimulation,4,Dr. Davis,4.3
+22,Female,Urology,Kidney Stone Removal,3,Dr. Taylor,4.7
+53,Male,Urology,Bladder Surgery,5,Dr. Taylor,4.9
+71,Male,Neurology,Spinal Fusion,3,Dr. Davis,3.8
+45,Female,Orthopedics,Knee Replacement,5,Dr. Gonzalez,3.1
+60,Female,Oncology,Lung Resection,5,Dr. Smith,3.6
+36,Male,Neurology,Deep Brain Stimulation,4,Dr. Brown,4.3
+49,Male,Neurology,Brain Surgery,5,Dr. Brown,4.6
+63,Male,Orthopedics,Hip Replacement,2,Dr. Gonzalez,4.3
+48,Male,Urology,Kidney Stone Removal,5,Dr. Rodriguez,3.4
+34,Female,Oncology,Colonoscopy,2,Dr. Smith,4.7
+37,Female,Neurology,Brain Surgery,3,Dr. Garcia,3.1
+36,Female,Urology,Bladder Surgery,5,Dr. Moore,3.1
+75,Female,Oncology,Colonoscopy,3,Dr. Johnson,3.8
+51,Female,Urology,Bladder Surgery,3,Dr. Taylor,4
+28,Male,Neurology,Brain Surgery,1,Dr. Davis,4.2
+25,Male,Urology,Bladder Surgery,1,Dr. Lopez,3.9
+52,Female,Cardiology,Heart Bypass Surgery,4,Dr. Miller,3.8
+22,Female,Urology,Bladder Surgery,5,Dr. Taylor,4.9
+83,Female,Urology,Kidney Stone Removal,5,Dr. Lopez,4.3
+63,Female,Urology,Prostatectomy,3,Dr. Taylor,3
+82,Male,Cardiology,Heart Bypass Surgery,1,Dr. Thomas,3.4
+18,Female,Cardiology,Heart Bypass Surgery,1,Dr. Thomas,4.3
+71,Female,Orthopedics,Knee Replacement,5,Dr. Gonzalez,4.5
+29,Male,Cardiology,Heart Bypass Surgery,5,Dr. Wilson,3.2
+75,Female,Cardiology,Heart Bypass Surgery,1,Dr. Wilson,3.6
+35,Male,Oncology,Lung Resection,2,Dr. Anderson,3.1
+50,Female,Neurology,Brain Surgery,4,Dr. Davis,4.6
+60,Male,Orthopedics,Rotator Cuff Repair,1,Dr. White,4.9
+47,Female,Cardiology,Angioplasty,1,Dr. Wilson,4.1
+50,Female,Urology,Bladder Surgery,5,Dr. Rodriguez,4.8
+59,Female,Urology,Kidney Stone Removal,5,Dr. Moore,3.1
+71,Male,Cardiology,Angioplasty,3,Dr. Miller,3.9
+79,Female,Cardiology,Angioplasty,4,Dr. Miller,3.1
+28,Male,Cardiology,Pacemaker Implantation,3,Dr. Thomas,3.3
+65,Female,Urology,Bladder Surgery,4,Dr. Lopez,3.3
+50,Male,Cardiology,Heart Bypass Surgery,5,Dr. Wilson,4.1
+20,Male,Urology,Kidney Stone Removal,4,Dr. Moore,4.5
+53,Male,Orthopedics,Rotator Cuff Repair,5,Dr. White,4.1
+25,Female,Neurology,Spinal Fusion,1,Dr. Brown,3.7
+85,Male,Orthopedics,Hip Replacement,2,Dr. White,3.8
+60,Female,Orthopedics,Rotator Cuff Repair,3,Dr. Jackson,4.8
+62,Female,Orthopedics,Rotator Cuff Repair,4,Dr. Hernandez,4.9
+74,Female,Cardiology,Angioplasty,5,Dr. Miller,3.6
+75,Female,Neurology,Spinal Fusion,5,Dr. Davis,4.5
+46,Female,Neurology,Deep Brain Stimulation,5,Dr. Brown,4
+33,Male,Urology,Bladder Surgery,5,Dr. Taylor,3.2
+46,Female,Cardiology,Pacemaker Implantation,2,Dr. Thomas,3.2
+84,Female,Cardiology,Pacemaker Implantation,1,Dr. Thomas,4.5
+52,Female,Orthopedics,Knee Replacement,2,Dr. Gonzalez,3.6
+27,Male,Orthopedics,Knee Replacement,2,Dr. White,3.6
+24,Male,Orthopedics,Knee Replacement,5,Dr. Hernandez,4.1
+79,Male,Neurology,Deep Brain Stimulation,1,Dr. Brown,3.4
+43,Male,Neurology,Spinal Fusion,4,Dr. Garcia,4.1
+41,Male,Oncology,Mastectomy,4,Dr. Anderson,3
+62,Male,Orthopedics,Knee Replacement,4,Dr. Jackson,4.4
+55,Male,Orthopedics,Knee Replacement,2,Dr. Martinez,3.7
+20,Male,Urology,Prostatectomy,2,Dr. Lopez,4.9
+66,Female,Cardiology,Heart Bypass Surgery,5,Dr. Williams,4.2
+72,Female,Oncology,Lung Resection,1,Dr. Johnson,4.7
+63,Female,Urology,Bladder Surgery,1,Dr. Taylor,4.4
+34,Female,Orthopedics,Knee Replacement,5,Dr. Hernandez,4.5
+25,Female,Neurology,Deep Brain Stimulation,1,Dr. Davis,3.5
+52,Female,Orthopedics,Knee Replacement,5,Dr. Gonzalez,3.9
+89,Female,Neurology,Deep Brain Stimulation,4,Dr. Davis,3.8
+79,Male,Neurology,Spinal Fusion,1,Dr. Brown,4.6
+82,Male,Orthopedics,Rotator Cuff Repair,2,Dr. Jackson,3
+36,Female,Cardiology,Angioplasty,1,Dr. Thomas,4.3
+42,Female,Orthopedics,Hip Replacement,2,Dr. Jackson,4.5
+65,Female,Neurology,Brain Surgery,3,Dr. Garcia,4.4
+57,Female,Oncology,Mastectomy,5,Dr. Anderson,4.7
+84,Male,Orthopedics,Rotator Cuff Repair,3,Dr. Jackson,3.5
+53,Male,Orthopedics,Knee Replacement,4,Dr. Hernandez,4.8
+72,Male,Urology,Kidney Stone Removal,2,Dr. Taylor,3.7
+41,Female,Urology,Kidney Stone Removal,3,Dr. Taylor,3.6
+32,Female,Oncology,Mastectomy,3,Dr. Anderson,3.9
+84,Male,Neurology,Spinal Fusion,4,Dr. Davis,4.9
+43,Female,Orthopedics,Knee Replacement,1,Dr. White,4.7
+79,Male,Urology,Bladder Surgery,4,Dr. Jones,3.3
+67,Male,Neurology,Deep Brain Stimulation,2,Dr. Garcia,4.9
+76,Female,Cardiology,Angioplasty,2,Dr. Miller,4.4
+23,Female,Oncology,Mastectomy,5,Dr. Anderson,3.6
+75,Male,Orthopedics,Hip Replacement,2,Dr. Gonzalez,3.6
+31,Female,Urology,Bladder Surgery,2,Dr. Rodriguez,4.1
+33,Male,Cardiology,Angioplasty,4,Dr. Miller,3.8
+58,Male,Oncology,Colonoscopy,3,Dr. Smith,3.8
+75,Male,Oncology,Lung Resection,5,Dr. Johnson,3.1
+89,Male,Oncology,Colonoscopy,1,Dr. Smith,3.1
+67,Female,Urology,Bladder Surgery,5,Dr. Taylor,4
+24,Female,Orthopedics,Knee Replacement,4,Dr. Martinez,3.8
+57,Male,Urology,Kidney Stone Removal,5,Dr. Taylor,4
+42,Male,Cardiology,Angioplasty,5,Dr. Williams,3.8
+41,Female,Neurology,Spinal Fusion,4,Dr. Davis,3.8
+66,Male,Oncology,Colonoscopy,1,Dr. Anderson,3.8
+54,Female,Oncology,Lung Resection,3,Dr. Smith,4.8
+22,Male,Cardiology,Pacemaker Implantation,2,Dr. Thomas,3.9
+46,Male,Neurology,Brain Surgery,5,Dr. Brown,3.3
+86,Female,Urology,Kidney Stone Removal,5,Dr. Lopez,3.6
+62,Female,Neurology,Deep Brain Stimulation,5,Dr. Garcia,4.3
+76,Male,Cardiology,Angioplasty,1,Dr. Wilson,4.3
+87,Female,Orthopedics,Hip Replacement,3,Dr. Martinez,3.9
+67,Female,Orthopedics,Rotator Cuff Repair,1,Dr. Jackson,4.3
+36,Male,Urology,Bladder Surgery,2,Dr. Taylor,4.9
+58,Female,Urology,Prostatectomy,4,Dr. Moore,4.1
+77,Male,Urology,Prostatectomy,5,Dr. Jones,4.7
+19,Female,Orthopedics,Knee Replacement,1,Dr. White,3.9
+60,Female,Urology,Kidney Stone Removal,2,Dr. Moore,4.1
+84,Female,Urology,Prostatectomy,4,Dr. Jones,3.9
+83,Male,Orthopedics,Rotator Cuff Repair,5,Dr. Martinez,4.7
+69,Female,Urology,Kidney Stone Removal,3,Dr. Jones,3
+25,Male,Cardiology,Angioplasty,3,Dr. Miller,3.7
+90,Male,Cardiology,Pacemaker Implantation,3,Dr. Wilson,4.3
+20,Female,Neurology,Spinal Fusion,3,Dr. Brown,3.9
+45,Female,Oncology,Lung Resection,4,Dr. Smith,3
+72,Male,Cardiology,Angioplasty,5,Dr. Miller,3.7
+56,Female,Orthopedics,Rotator Cuff Repair,5,Dr. Jackson,4.4
+26,Female,Urology,Bladder Surgery,1,Dr. Lopez,4.3
+44,Male,Urology,Bladder Surgery,4,Dr. Rodriguez,4.8
+40,Female,Orthopedics,Hip Replacement,4,Dr. White,3.9
+44,Male,Orthopedics,Knee Replacement,4,Dr. Jackson,4.2
+29,Female,Urology,Bladder Surgery,1,Dr. Taylor,3.4
+39,Female,Neurology,Deep Brain Stimulation,2,Dr. Brown,3.8
+44,Male,Orthopedics,Rotator Cuff Repair,1,Dr. Jackson,3.7
+20,Female,Oncology,Mastectomy,3,Dr. Smith,4.2
+54,Female,Orthopedics,Rotator Cuff Repair,3,Dr. Hernandez,3.2
+76,Male,Urology,Prostatectomy,5,Dr. Taylor,4.3
+33,Male,Orthopedics,Hip Replacement,5,Dr. Gonzalez,4.4
+67,Male,Neurology,Brain Surgery,3,Dr. Garcia,4.3
+48,Female,Orthopedics,Rotator Cuff Repair,5,Dr. Gonzalez,3
+47,Male,Cardiology,Angioplasty,1,Dr. Williams,3.5
+26,Female,Urology,Kidney Stone Removal,2,Dr. Lopez,3.5
+55,Male,Oncology,Lung Resection,4,Dr. Anderson,4.4
+63,Female,Cardiology,Heart Bypass Surgery,3,Dr. Miller,4
+75,Female,Oncology,Colonoscopy,2,Dr. Smith,4.6
+74,Male,Urology,Kidney Stone Removal,4,Dr. Rodriguez,3.1
+44,Female,Neurology,Brain Surgery,2,Dr. Davis,3.6
+69,Male,Orthopedics,Knee Replacement,4,Dr. Gonzalez,3.5
+40,Female,Oncology,Lung Resection,2,Dr. Anderson,4
+79,Male,Neurology,Deep Brain Stimulation,4,Dr. Brown,3.6
+82,Male,Neurology,Brain Surgery,3,Dr. Davis,3
+58,Male,Orthopedics,Rotator Cuff Repair,5,Dr. Gonzalez,4.6
+62,Female,Neurology,Spinal Fusion,2,Dr. Brown,5
+67,Male,Orthopedics,Rotator Cuff Repair,4,Dr. Gonzalez,3.7
+47,Female,Neurology,Spinal Fusion,4,Dr. Brown,3.5
+77,Female,Neurology,Deep Brain Stimulation,3,Dr. Garcia,3.7
+23,Male,Urology,Kidney Stone Removal,4,Dr. Moore,3.8
+73,Male,Orthopedics,Rotator Cuff Repair,2,Dr. Jackson,4.4
+22,Female,Orthopedics,Hip Replacement,5,Dr. Gonzalez,3.5
+49,Female,Cardiology,Heart Bypass Surgery,5,Dr. Miller,4.6
+47,Male,Oncology,Mastectomy,5,Dr. Anderson,3.7
+43,Female,Cardiology,Angioplasty,5,Dr. Williams,3.8
+31,Female,Orthopedics,Rotator Cuff Repair,5,Dr. Martinez,4
+28,Female,Neurology,Brain Surgery,3,Dr. Davis,4.2
+18,Male,Urology,Bladder Surgery,1,Dr. Taylor,4.6
+34,Female,Neurology,Brain Surgery,3,Dr. Davis,5
+45,Female,Orthopedics,Knee Replacement,2,Dr. Gonzalez,3.1
+53,Male,Oncology,Mastectomy,1,Dr. Smith,4.2
+89,Female,Urology,Prostatectomy,5,Dr. Jones,4.9
+26,Female,Orthopedics,Rotator Cuff Repair,5,Dr. Martinez,4.3
+20,Male,Neurology,Spinal Fusion,5,Dr. Davis,3.8
+40,Male,Orthopedics,Rotator Cuff Repair,2,Dr. Jackson,4.9
+18,Female,Urology,Kidney Stone Removal,2,Dr. Rodriguez,3.5
+53,Female,Orthopedics,Hip Replacement,3,Dr. White,3.7
+25,Female,Orthopedics,Hip Replacement,3,Dr. Jackson,3.5
+20,Male,Urology,Bladder Surgery,1,Dr. Rodriguez,3.7
+68,Male,Oncology,Lung Resection,4,Dr. Johnson,3.2
+51,Female,Urology,Prostatectomy,5,Dr. Moore,4.3
+42,Female,Cardiology,Pacemaker Implantation,2,Dr. Williams,3.5
+59,Male,Oncology,Lung Resection,3,Dr. Smith,3.2
+46,Female,Cardiology,Heart Bypass Surgery,1,Dr. Miller,3.5
+26,Female,Orthopedics,Knee Replacement,4,Dr. Jackson,4.9
+33,Male,Oncology,Lung Resection,2,Dr. Anderson,4.3
+67,Female,Urology,Prostatectomy,2,Dr. Rodriguez,4.5
+62,Male,Orthopedics,Knee Replacement,2,Dr. Gonzalez,3.8
+48,Male,Orthopedics,Rotator Cuff Repair,1,Dr. Hernandez,4.1
+35,Male,Cardiology,Angioplasty,2,Dr. Wilson,4.9
+73,Female,Orthopedics,Knee Replacement,5,Dr. Martinez,4
+75,Female,Neurology,Brain Surgery,3,Dr. Davis,4.7
+80,Female,Orthopedics,Knee Replacement,1,Dr. Hernandez,4.1
+43,Male,Neurology,Brain Surgery,3,Dr. Davis,4.2
+24,Male,Neurology,Spinal Fusion,5,Dr. Brown,4.8
+39,Female,Urology,Prostatectomy,4,Dr. Jones,3.8
+74,Male,Orthopedics,Knee Replacement,5,Dr. Hernandez,3.3
+81,Male,Urology,Bladder Surgery,1,Dr. Rodriguez,4.4
+63,Male,Cardiology,Angioplasty,4,Dr. Wilson,4
+74,Male,Oncology,Mastectomy,3,Dr. Johnson,3.4
+23,Female,Cardiology,Heart Bypass Surgery,5,Dr. Thomas,4.2
+50,Male,Cardiology,Pacemaker Implantation,3,Dr. Thomas,3.7
+74,Male,Orthopedics,Knee Replacement,5,Dr. Jackson,4.9
+26,Male,Neurology,Spinal Fusion,1,Dr. Garcia,3.6
+36,Female,Orthopedics,Knee Replacement,4,Dr. Martinez,3.8
+34,Male,Oncology,Colonoscopy,2,Dr. Anderson,4.5
+78,Male,Oncology,Lung Resection,4,Dr. Smith,3.4
+47,Female,Cardiology,Pacemaker Implantation,3,Dr. Thomas,4.3
+74,Female,Orthopedics,Hip Replacement,5,Dr. Martinez,4
+44,Male,Cardiology,Heart Bypass Surgery,3,Dr. Wilson,4.3
+30,Male,Neurology,Spinal Fusion,3,Dr. Davis,3.2
+80,Female,Cardiology,Angioplasty,1,Dr. Miller,4.3
+82,Male,Urology,Kidney Stone Removal,2,Dr. Lopez,3.6
+80,Male,Orthopedics,Knee Replacement,2,Dr. Martinez,4.6
+78,Male,Neurology,Brain Surgery,2,Dr. Garcia,4.2
+61,Male,Oncology,Mastectomy,2,Dr. Smith,4.2
+64,Male,Cardiology,Angioplasty,3,Dr. Wilson,3.6
+89,Female,Urology,Bladder Surgery,2,Dr. Rodriguez,4
+38,Male,Neurology,Brain Surgery,3,Dr. Davis,3.2
+60,Female,Cardiology,Pacemaker Implantation,4,Dr. Miller,3.7
+49,Female,Urology,Kidney Stone Removal,4,Dr. Lopez,4.3
+27,Male,Orthopedics,Hip Replacement,5,Dr. Jackson,4.4
+65,Male,Orthopedics,Hip Replacement,4,Dr. White,3.3
+83,Female,Cardiology,Pacemaker Implantation,3,Dr. Williams,3.8
+32,Male,Orthopedics,Hip Replacement,3,Dr. Gonzalez,4.4
+61,Male,Oncology,Mastectomy,1,Dr. Johnson,3.4
+79,Male,Neurology,Spinal Fusion,3,Dr. Brown,4.6
+28,Male,Orthopedics,Knee Replacement,3,Dr. Martinez,3.9
+71,Male,Neurology,Brain Surgery,3,Dr. Garcia,3.9
+55,Female,Urology,Prostatectomy,5,Dr. Taylor,4
+39,Male,Orthopedics,Hip Replacement,5,Dr. White,3.8
+67,Male,Orthopedics,Hip Replacement,4,Dr. Hernandez,4.6
+18,Female,Neurology,Spinal Fusion,3,Dr. Davis,3.5
+18,Female,Cardiology,Pacemaker Implantation,3,Dr. Miller,5
+30,Female,Orthopedics,Rotator Cuff Repair,4,Dr. Hernandez,3.9
+40,Male,Urology,Kidney Stone Removal,2,Dr. Taylor,5
+90,Female,Oncology,Lung Resection,4,Dr. Anderson,5
+52,Female,Neurology,Brain Surgery,4,Dr. Davis,4.3
+79,Female,Orthopedics,Hip Replacement,5,Dr. Jackson,3.4
+60,Female,Neurology,Spinal Fusion,4,Dr. Davis,3.3
+67,Male,Oncology,Colonoscopy,2,Dr. Anderson,3.3
+90,Male,Cardiology,Heart Bypass Surgery,1,Dr. Miller,4.2
+60,Female,Cardiology,Angioplasty,5,Dr. Williams,3.2
+88,Female,Cardiology,Angioplasty,5,Dr. Miller,3.4
+21,Male,Cardiology,Angioplasty,2,Dr. Thomas,3.5
+38,Male,Orthopedics,Knee Replacement,5,Dr. Hernandez,4.6
+49,Female,Urology,Bladder Surgery,3,Dr. Rodriguez,5
+73,Female,Neurology,Spinal Fusion,5,Dr. Brown,4.2
+60,Female,Urology,Prostatectomy,2,Dr. Jones,3.3
+35,Male,Orthopedics,Rotator Cuff Repair,4,Dr. Gonzalez,3.9
+38,Female,Orthopedics,Hip Replacement,4,Dr. Gonzalez,3.6
+55,Female,Urology,Prostatectomy,5,Dr. Rodriguez,3.4
+29,Male,Urology,Bladder Surgery,4,Dr. Moore,4.2
+89,Female,Urology,Bladder Surgery,3,Dr. Lopez,3
+19,Female,Orthopedics,Knee Replacement,4,Dr. Hernandez,3
+79,Male,Orthopedics,Rotator Cuff Repair,2,Dr. Jackson,3.2
+33,Female,Urology,Bladder Surgery,3,Dr. Moore,3.3
+32,Female,Orthopedics,Knee Replacement,4,Dr. Hernandez,4.1
+20,Male,Neurology,Deep Brain Stimulation,1,Dr. Garcia,4.6
+29,Female,Neurology,Brain Surgery,3,Dr. Garcia,4.9
+46,Female,Cardiology,Pacemaker Implantation,5,Dr. Miller,3.1
+30,Male,Urology,Kidney Stone Removal,1,Dr. Moore,4.1
+86,Female,Neurology,Spinal Fusion,5,Dr. Brown,3.5
+32,Male,Cardiology,Pacemaker Implantation,4,Dr. Williams,5
+26,Male,Urology,Kidney Stone Removal,5,Dr. Moore,4.3
+60,Male,Neurology,Spinal Fusion,1,Dr. Garcia,4.6
+90,Female,Neurology,Deep Brain Stimulation,5,Dr. Davis,4
+90,Male,Cardiology,Angioplasty,2,Dr. Thomas,4.9
+73,Female,Oncology,Mastectomy,3,Dr. Smith,4.4
+41,Female,Cardiology,Angioplasty,5,Dr. Wilson,3.5
+82,Female,Urology,Kidney Stone Removal,2,Dr. Moore,4.1
+65,Female,Neurology,Spinal Fusion,2,Dr. Davis,4.9
+46,Male,Urology,Prostatectomy,1,Dr. Moore,3.4
+69,Female,Urology,Bladder Surgery,2,Dr. Rodriguez,3
+28,Male,Oncology,Mastectomy,2,Dr. Johnson,4.2
+66,Male,Neurology,Brain Surgery,2,Dr. Garcia,3.8
+58,Female,Urology,Kidney Stone Removal,3,Dr. Taylor,4.3
+89,Female,Neurology,Spinal Fusion,1,Dr. Garcia,3.9
+59,Female,Neurology,Deep Brain Stimulation,5,Dr. Garcia,3.4
+21,Male,Orthopedics,Rotator Cuff Repair,3,Dr. Hernandez,4.9
+49,Male,Orthopedics,Rotator Cuff Repair,5,Dr. Martinez,3.5
+40,Female,Oncology,Colonoscopy,1,Dr. Johnson,3.2
+31,Female,Cardiology,Angioplasty,3,Dr. Thomas,3.9
+61,Male,Urology,Bladder Surgery,3,Dr. Moore,3.2
+53,Male,Orthopedics,Rotator Cuff Repair,5,Dr. Martinez,4.4
+53,Female,Orthopedics,Hip Replacement,3,Dr. Martinez,3.5
+44,Female,Oncology,Mastectomy,2,Dr. Johnson,5
+80,Female,Orthopedics,Rotator Cuff Repair,1,Dr. White,3.2
+32,Female,Orthopedics,Knee Replacement,4,Dr. Hernandez,4.3
+45,Female,Orthopedics,Knee Replacement,4,Dr. Gonzalez,3.3
+50,Female,Orthopedics,Knee Replacement,2,Dr. Martinez,4.6
+65,Female,Cardiology,Pacemaker Implantation,3,Dr. Miller,4.3
+80,Female,Cardiology,Heart Bypass Surgery,2,Dr. Miller,3.8
+79,Male,Urology,Bladder Surgery,2,Dr. Rodriguez,3.5
+51,Male,Orthopedics,Rotator Cuff Repair,3,Dr. Hernandez,3.8
+64,Female,Urology,Prostatectomy,4,Dr. Moore,4.6
+81,Male,Cardiology,Pacemaker Implantation,1,Dr. Wilson,4.7
+34,Female,Neurology,Brain Surgery,3,Dr. Davis,4.3
+49,Female,Urology,Kidney Stone Removal,5,Dr. Lopez,4
+89,Female,Orthopedics,Knee Replacement,4,Dr. Hernandez,4.7
+52,Male,Neurology,Brain Surgery,2,Dr. Brown,3.1
+57,Male,Urology,Kidney Stone Removal,2,Dr. Taylor,4.6
+69,Male,Urology,Prostatectomy,5,Dr. Moore,4.3
+22,Male,Orthopedics,Knee Replacement,1,Dr. White,3
+54,Male,Cardiology,Pacemaker Implantation,1,Dr. Miller,3.9
+54,Male,Cardiology,Angioplasty,5,Dr. Thomas,4.8
+27,Male,Cardiology,Heart Bypass Surgery,5,Dr. Williams,4.5
+38,Male,Oncology,Mastectomy,1,Dr. Anderson,3.6
+69,Female,Orthopedics,Knee Replacement,1,Dr. Martinez,3.2
+81,Male,Urology,Bladder Surgery,5,Dr. Jones,3.2
+21,Male,Cardiology,Heart Bypass Surgery,1,Dr. Wilson,4.8
+39,Female,Urology,Prostatectomy,5,Dr. Moore,3.2
+31,Female,Urology,Prostatectomy,5,Dr. Moore,3.1
+58,Male,Neurology,Spinal Fusion,2,Dr. Brown,4.2
+85,Female,Orthopedics,Rotator Cuff Repair,3,Dr. Jackson,3.7
+30,Male,Orthopedics,Knee Replacement,3,Dr. Martinez,3.3
+54,Female,Urology,Kidney Stone Removal,1,Dr. Rodriguez,4.3
+84,Female,Orthopedics,Knee Replacement,5,Dr. Jackson,3.3
+26,Female,Cardiology,Pacemaker Implantation,3,Dr. Miller,3.2
+67,Male,Urology,Prostatectomy,1,Dr. Taylor,4.3
+25,Female,Orthopedics,Hip Replacement,5,Dr. Jackson,4.7
+49,Male,Orthopedics,Hip Replacement,4,Dr. Hernandez,4.2
+41,Male,Urology,Prostatectomy,2,Dr. Taylor,3.4
+28,Male,Cardiology,Pacemaker Implantation,1,Dr. Miller,3.1
+42,Male,Cardiology,Angioplasty,1,Dr. Miller,3.4
+18,Male,Cardiology,Heart Bypass Surgery,1,Dr. Miller,4.6
+62,Female,Cardiology,Pacemaker Implantation,3,Dr. Thomas,3.4
+78,Male,Neurology,Spinal Fusion,1,Dr. Brown,3.5
+84,Female,Urology,Bladder Surgery,2,Dr. Moore,4.8
+66,Male,Cardiology,Heart Bypass Surgery,5,Dr. Thomas,3.9
+37,Female,Urology,Prostatectomy,4,Dr. Jones,3.5
+76,Female,Urology,Prostatectomy,2,Dr. Rodriguez,4.7
+89,Male,Urology,Bladder Surgery,3,Dr. Moore,4.3
+40,Female,Oncology,Lung Resection,1,Dr. Johnson,3.8
+71,Male,Neurology,Brain Surgery,4,Dr. Davis,3.4
+78,Female,Neurology,Brain Surgery,4,Dr. Garcia,4.9
+34,Female,Oncology,Mastectomy,5,Dr. Smith,4.3
+22,Male,Neurology,Spinal Fusion,2,Dr. Davis,3.2
+38,Female,Urology,Bladder Surgery,1,Dr. Lopez,3.2
+22,Female,Cardiology,Pacemaker Implantation,4,Dr. Miller,4.6
+67,Female,Orthopedics,Rotator Cuff Repair,4,Dr. Martinez,4.9
+52,Female,Urology,Bladder Surgery,4,Dr. Moore,4.9
+75,Male,Oncology,Colonoscopy,3,Dr. Johnson,4.6
+25,Female,Orthopedics,Rotator Cuff Repair,4,Dr. Martinez,4.4
+82,Male,Urology,Prostatectomy,2,Dr. Moore,4.8
+84,Male,Neurology,Brain Surgery,1,Dr. Davis,3.1
+29,Male,Neurology,Spinal Fusion,1,Dr. Davis,4.8
+71,Female,Orthopedics,Rotator Cuff Repair,1,Dr. White,3.4
+40,Male,Oncology,Lung Resection,1,Dr. Johnson,3.4
+75,Male,Urology,Bladder Surgery,1,Dr. Moore,4.5
+72,Male,Neurology,Brain Surgery,3,Dr. Davis,4.7
+64,Female,Neurology,Spinal Fusion,2,Dr. Brown,4.9
+60,Male,Urology,Kidney Stone Removal,1,Dr. Jones,4.1
+35,Male,Neurology,Spinal Fusion,3,Dr. Garcia,4.5
+46,Male,Orthopedics,Rotator Cuff Repair,5,Dr. Gonzalez,3.4
+81,Male,Urology,Kidney Stone Removal,2,Dr. Moore,3.7
+26,Male,Urology,Bladder Surgery,1,Dr. Moore,4.1
+82,Female,Orthopedics,Knee Replacement,2,Dr. Jackson,3.6
+45,Male,Urology,Bladder Surgery,1,Dr. Moore,4.1
+72,Male,Orthopedics,Hip Replacement,1,Dr. Gonzalez,3
+50,Male,Neurology,Spinal Fusion,5,Dr. Garcia,3
+54,Female,Orthopedics,Rotator Cuff Repair,4,Dr. Hernandez,4
+83,Female,Oncology,Colonoscopy,4,Dr. Johnson,4
+49,Female,Urology,Kidney Stone Removal,5,Dr. Taylor,4.1
+70,Male,Cardiology,Angioplasty,3,Dr. Thomas,3.1
+29,Male,Neurology,Spinal Fusion,1,Dr. Davis,4.7
+37,Female,Urology,Prostatectomy,2,Dr. Lopez,3.3
+45,Male,Urology,Bladder Surgery,2,Dr. Moore,4.2
+76,Female,Cardiology,Pacemaker Implantation,2,Dr. Williams,3.9
+83,Male,Cardiology,Heart Bypass Surgery,2,Dr. Williams,3.3
+37,Male,Orthopedics,Hip Replacement,3,Dr. Hernandez,3.2
+35,Female,Urology,Prostatectomy,2,Dr. Jones,3.7
+57,Male,Neurology,Spinal Fusion,5,Dr. Davis,3.9
+32,Female,Orthopedics,Knee Replacement,2,Dr. Jackson,4.3
+46,Male,Oncology,Colonoscopy,3,Dr. Johnson,3.7
+24,Male,Urology,Kidney Stone Removal,1,Dr. Moore,3.4
+46,Female,Oncology,Colonoscopy,4,Dr. Johnson,3.1
+87,Female,Oncology,Mastectomy,4,Dr. Johnson,4.6
+35,Male,Urology,Kidney Stone Removal,4,Dr. Rodriguez,3.6
+66,Female,Oncology,Lung Resection,3,Dr. Johnson,4.8
+86,Female,Neurology,Spinal Fusion,1,Dr. Garcia,4
+59,Male,Neurology,Brain Surgery,2,Dr. Davis,4.1
+41,Male,Cardiology,Pacemaker Implantation,5,Dr. Miller,3.8
+67,Female,Oncology,Colonoscopy,2,Dr. Anderson,3.1
+76,Female,Orthopedics,Hip Replacement,4,Dr. Hernandez,4.4
+42,Male,Oncology,Lung Resection,3,Dr. Johnson,3.6
+66,Female,Orthopedics,Hip Replacement,5,Dr. Jackson,3.2
+74,Female,Neurology,Spinal Fusion,5,Dr. Garcia,3.4
+78,Male,Urology,Prostatectomy,4,Dr. Lopez,3.4
+63,Male,Urology,Kidney Stone Removal,4,Dr. Lopez,3.9
+41,Female,Oncology,Lung Resection,1,Dr. Johnson,3.5
+79,Male,Urology,Bladder Surgery,2,Dr. Jones,3.5
+35,Female,Cardiology,Pacemaker Implantation,3,Dr. Thomas,3.7
+88,Male,Orthopedics,Hip Replacement,5,Dr. Martinez,4.5
+57,Male,Urology,Bladder Surgery,1,Dr. Lopez,3.7
+56,Female,Urology,Kidney Stone Removal,5,Dr. Taylor,3.4
+35,Male,Orthopedics,Rotator Cuff Repair,5,Dr. Martinez,3.7
+64,Male,Oncology,Colonoscopy,3,Dr. Smith,3.2
+85,Female,Oncology,Lung Resection,3,Dr. Smith,3.5
+72,Male,Neurology,Spinal Fusion,1,Dr. Garcia,3.3
+41,Female,Urology,Prostatectomy,4,Dr. Taylor,3.5
+45,Male,Urology,Prostatectomy,2,Dr. Lopez,4.8
+81,Female,Orthopedics,Knee Replacement,1,Dr. White,4.4
+44,Female,Cardiology,Pacemaker Implantation,1,Dr. Miller,3.3
+38,Female,Neurology,Brain Surgery,3,Dr. Garcia,4.3
+69,Male,Orthopedics,Knee Replacement,1,Dr. Jackson,4.5
+43,Female,Orthopedics,Knee Replacement,1,Dr. Hernandez,3.2
+24,Female,Urology,Bladder Surgery,2,Dr. Taylor,4.7
+28,Male,Neurology,Brain Surgery,4,Dr. Garcia,4.6
+40,Male,Orthopedics,Rotator Cuff Repair,3,Dr. Hernandez,3.9
+62,Male,Urology,Bladder Surgery,4,Dr. Rodriguez,3.7
+18,Male,Cardiology,Angioplasty,5,Dr. Wilson,4.8
+36,Female,Neurology,Spinal Fusion,1,Dr. Garcia,3.1
+75,Female,Cardiology,Heart Bypass Surgery,3,Dr. Wilson,4
+87,Female,Cardiology,Angioplasty,5,Dr. Wilson,3.1
+89,Female,Oncology,Lung Resection,1,Dr. Anderson,3.4
+34,Male,Cardiology,Pacemaker Implantation,1,Dr. Wilson,3
+54,Female,Oncology,Lung Resection,4,Dr. Smith,3.3
+35,Male,Orthopedics,Hip Replacement,1,Dr. Gonzalez,3.1
+40,Male,Cardiology,Angioplasty,2,Dr. Williams,3.3
+57,Male,Oncology,Mastectomy,2,Dr. Smith,3.3
+54,Female,Cardiology,Pacemaker Implantation,4,Dr. Williams,4.4
+69,Female,Orthopedics,Rotator Cuff Repair,1,Dr. White,4.5
+39,Male,Orthopedics,Rotator Cuff Repair,4,Dr. Hernandez,3.3
+54,Male,Urology,Prostatectomy,4,Dr. Taylor,4.4
+65,Female,Oncology,Mastectomy,5,Dr. Anderson,4.4
+75,Female,Neurology,Brain Surgery,5,Dr. Davis,3.2
+88,Female,Urology,Bladder Surgery,1,Dr. Jones,4
+60,Female,Neurology,Spinal Fusion,1,Dr. Davis,3.9
+31,Male,Oncology,Colonoscopy,1,Dr. Johnson,3.6
+29,Female,Oncology,Colonoscopy,1,Dr. Anderson,3.8
+59,Male,Orthopedics,Knee Replacement,5,Dr. Jackson,3.4
+86,Male,Orthopedics,Rotator Cuff Repair,2,Dr. Jackson,4.7
+51,Female,Orthopedics,Rotator Cuff Repair,3,Dr. Jackson,4
+61,Male,Orthopedics,Hip Replacement,1,Dr. Jackson,5
+74,Female,Orthopedics,Knee Replacement,2,Dr. Hernandez,4.3
+57,Male,Oncology,Mastectomy,3,Dr. Johnson,3.8
+38,Female,Orthopedics,Knee Replacement,1,Dr. White,3.2
+87,Female,Neurology,Deep Brain Stimulation,5,Dr. Garcia,4
+65,Female,Urology,Kidney Stone Removal,2,Dr. Lopez,3.5
+59,Male,Oncology,Lung Resection,1,Dr. Johnson,4
+61,Male,Oncology,Colonoscopy,4,Dr. Anderson,4.3
+20,Male,Orthopedics,Hip Replacement,4,Dr. Hernandez,3.9
+78,Male,Orthopedics,Hip Replacement,2,Dr. Hernandez,4.5
+78,Female,Cardiology,Pacemaker Implantation,5,Dr. Wilson,3.1
+35,Male,Oncology,Colonoscopy,2,Dr. Johnson,4.3
+33,Male,Cardiology,Pacemaker Implantation,3,Dr. Williams,3.4
+84,Male,Oncology,Lung Resection,5,Dr. Johnson,4.2
+59,Female,Neurology,Spinal Fusion,4,Dr. Garcia,4.3
+33,Male,Cardiology,Heart Bypass Surgery,2,Dr. Miller,4
+26,Male,Neurology,Spinal Fusion,1,Dr. Brown,4.4
+63,Female,Orthopedics,Hip Replacement,1,Dr. Hernandez,3.3
+46,Female,Oncology,Colonoscopy,4,Dr. Smith,4
+37,Male,Neurology,Spinal Fusion,3,Dr. Brown,3.5
+39,Male,Orthopedics,Hip Replacement,2,Dr. Gonzalez,4.7
+26,Female,Orthopedics,Rotator Cuff Repair,3,Dr. Martinez,3.5
+67,Female,Cardiology,Heart Bypass Surgery,3,Dr. Williams,3.2
+56,Female,Urology,Kidney Stone Removal,1,Dr. Moore,4.5
+50,Male,Cardiology,Heart Bypass Surgery,1,Dr. Wilson,4
+23,Female,Cardiology,Angioplasty,4,Dr. Miller,3.2
+67,Female,Urology,Bladder Surgery,4,Dr. Taylor,4.3
+78,Male,Neurology,Brain Surgery,5,Dr. Garcia,4.6
+54,Female,Orthopedics,Hip Replacement,2,Dr. Gonzalez,3.6
+67,Male,Oncology,Lung Resection,5,Dr. Johnson,3.8
+35,Male,Orthopedics,Knee Replacement,4,Dr. Gonzalez,4.5
+82,Female,Orthopedics,Knee Replacement,3,Dr. Martinez,3.6
+89,Female,Urology,Prostatectomy,5,Dr. Taylor,4.4
+78,Female,Oncology,Colonoscopy,2,Dr. Anderson,3.6
+57,Female,Orthopedics,Rotator Cuff Repair,3,Dr. Martinez,3.9
+60,Female,Oncology,Colonoscopy,4,Dr. Johnson,3.3
+82,Female,Urology,Kidney Stone Removal,1,Dr. Moore,5
+80,Female,Oncology,Lung Resection,5,Dr. Smith,4.1
+45,Female,Neurology,Brain Surgery,5,Dr. Brown,3.1
+27,Female,Urology,Bladder Surgery,2,Dr. Rodriguez,4.2
+72,Male,Neurology,Deep Brain Stimulation,1,Dr. Davis,4.2
+34,Female,Orthopedics,Knee Replacement,5,Dr. White,3.9
+81,Female,Oncology,Lung Resection,2,Dr. Anderson,3.7
+60,Female,Cardiology,Heart Bypass Surgery,4,Dr. Thomas,4.3
+29,Female,Orthopedics,Rotator Cuff Repair,4,Dr. Gonzalez,3.5
+81,Female,Neurology,Deep Brain Stimulation,5,Dr. Brown,4.1
+34,Female,Neurology,Brain Surgery,4,Dr. Brown,4.1
+63,Male,Cardiology,Angioplasty,2,Dr. Williams,4.9
+35,Female,Cardiology,Heart Bypass Surgery,4,Dr. Miller,4.9
+55,Female,Orthopedics,Hip Replacement,5,Dr. Gonzalez,4.8
+71,Female,Orthopedics,Knee Replacement,4,Dr. Jackson,3.7
+90,Female,Orthopedics,Rotator Cuff Repair,3,Dr. Gonzalez,3.3
+90,Female,Cardiology,Pacemaker Implantation,1,Dr. Thomas,3.5
+45,Male,Orthopedics,Hip Replacement,5,Dr. Martinez,4.6
+80,Female,Urology,Kidney Stone Removal,1,Dr. Moore,4.4
+39,Female,Neurology,Spinal Fusion,4,Dr. Brown,4.1
+59,Male,Urology,Bladder Surgery,3,Dr. Rodriguez,5
+86,Male,Oncology,Lung Resection,5,Dr. Anderson,4.6
+24,Female,Cardiology,Angioplasty,1,Dr. Williams,4.5
+45,Female,Urology,Prostatectomy,1,Dr. Rodriguez,3.9
+38,Female,Orthopedics,Rotator Cuff Repair,2,Dr. Martinez,3.4
+39,Male,Urology,Prostatectomy,3,Dr. Taylor,4.2
+64,Male,Orthopedics,Hip Replacement,2,Dr. White,3.4
+33,Male,Orthopedics,Rotator Cuff Repair,3,Dr. Martinez,4.9
+46,Female,Neurology,Spinal Fusion,4,Dr. Garcia,3.6
+33,Female,Cardiology,Heart Bypass Surgery,3,Dr. Wilson,4.2
+18,Female,Urology,Prostatectomy,5,Dr. Moore,4.8
+72,Female,Oncology,Colonoscopy,2,Dr. Anderson,4.5
+33,Female,Oncology,Mastectomy,1,Dr. Smith,4.2
+81,Female,Orthopedics,Rotator Cuff Repair,2,Dr. White,3.3
+71,Male,Neurology,Spinal Fusion,1,Dr. Davis,3.3
+31,Male,Urology,Kidney Stone Removal,1,Dr. Moore,4.6
+49,Male,Oncology,Colonoscopy,5,Dr. Anderson,4.1
+58,Female,Orthopedics,Rotator Cuff Repair,4,Dr. Gonzalez,4.4
+39,Male,Orthopedics,Rotator Cuff Repair,2,Dr. White,3.9
+19,Female,Oncology,Lung Resection,2,Dr. Johnson,4.6
+79,Female,Cardiology,Heart Bypass Surgery,2,Dr. Miller,3.9
+45,Female,Urology,Prostatectomy,3,Dr. Rodriguez,4.8
+32,Female,Cardiology,Heart Bypass Surgery,4,Dr. Miller,3.5
+76,Male,Urology,Bladder Surgery,3,Dr. Lopez,4.1
+26,Female,Urology,Kidney Stone Removal,3,Dr. Taylor,4
+52,Male,Orthopedics,Rotator Cuff Repair,2,Dr. Gonzalez,4.1
+75,Female,Cardiology,Heart Bypass Surgery,5,Dr. Wilson,4.8
+55,Female,Cardiology,Angioplasty,5,Dr. Williams,4
+18,Female,Orthopedics,Knee Replacement,2,Dr. White,4.1
+47,Male,Cardiology,Heart Bypass Surgery,5,Dr. Thomas,3.8
+38,Female,Cardiology,Pacemaker Implantation,2,Dr. Miller,5
+82,Male,Urology,Bladder Surgery,4,Dr. Lopez,3.3
+30,Female,Urology,Kidney Stone Removal,5,Dr. Moore,4.2
+19,Female,Urology,Prostatectomy,2,Dr. Taylor,3.6
+59,Female,Cardiology,Angioplasty,2,Dr. Williams,4.9
+87,Female,Orthopedics,Rotator Cuff Repair,5,Dr. Gonzalez,4.5
+38,Male,Neurology,Spinal Fusion,1,Dr. Brown,3.6
+57,Male,Orthopedics,Rotator Cuff Repair,3,Dr. Jackson,3.9
+49,Male,Cardiology,Heart Bypass Surgery,2,Dr. Thomas,3.1
+40,Male,Orthopedics,Rotator Cuff Repair,3,Dr. Hernandez,3.2
+32,Male,Cardiology,Heart Bypass Surgery,2,Dr. Thomas,3.9
+67,Female,Cardiology,Heart Bypass Surgery,3,Dr. Williams,4.5
+62,Male,Urology,Bladder Surgery,5,Dr. Lopez,4.9
+59,Female,Neurology,Spinal Fusion,1,Dr. Brown,3.4
+29,Male,Orthopedics,Rotator Cuff Repair,1,Dr. Gonzalez,4
+66,Female,Urology,Bladder Surgery,3,Dr. Taylor,4.9
+80,Female,Oncology,Mastectomy,5,Dr. Anderson,4.4
+70,Female,Oncology,Lung Resection,3,Dr. Smith,4.1
+75,Female,Orthopedics,Knee Replacement,5,Dr. Jackson,3.9
+81,Female,Neurology,Spinal Fusion,5,Dr. Garcia,4.5
+18,Female,Cardiology,Angioplasty,2,Dr. Wilson,3.4
+79,Female,Neurology,Spinal Fusion,4,Dr. Brown,4.8
+61,Female,Cardiology,Angioplasty,2,Dr. Thomas,3.2
+59,Female,Neurology,Brain Surgery,4,Dr. Davis,3.9
+81,Female,Urology,Kidney Stone Removal,2,Dr. Jones,4.7
+48,Female,Neurology,Spinal Fusion,5,Dr. Brown,4.8
+81,Female,Orthopedics,Rotator Cuff Repair,2,Dr. White,4.8
+66,Female,Orthopedics,Hip Replacement,5,Dr. Martinez,4.2
+78,Male,Cardiology,Pacemaker Implantation,2,Dr. Williams,3.1
+81,Male,Neurology,Deep Brain Stimulation,4,Dr. Garcia,4.6
+36,Female,Cardiology,Heart Bypass Surgery,4,Dr. Miller,3.5
+30,Female,Orthopedics,Knee Replacement,2,Dr. Jackson,3.8
+40,Female,Orthopedics,Rotator Cuff Repair,1,Dr. White,4
+63,Female,Oncology,Lung Resection,2,Dr. Smith,4.6
+76,Male,Oncology,Mastectomy,2,Dr. Anderson,4.6
+86,Female,Neurology,Brain Surgery,5,Dr. Garcia,5
+29,Male,Cardiology,Pacemaker Implantation,4,Dr. Thomas,3.9
+29,Female,Cardiology,Pacemaker Implantation,5,Dr. Miller,3.8
+67,Female,Orthopedics,Knee Replacement,5,Dr. Hernandez,4.9
+33,Male,Cardiology,Angioplasty,5,Dr. Wilson,4
+47,Male,Neurology,Spinal Fusion,5,Dr. Brown,4.3
+62,Male,Neurology,Spinal Fusion,2,Dr. Garcia,3.3
+23,Male,Neurology,Brain Surgery,4,Dr. Davis,4.2
+44,Male,Neurology,Brain Surgery,5,Dr. Davis,3.2
+43,Female,Cardiology,Pacemaker Implantation,4,Dr. Miller,3.8
+87,Male,Urology,Kidney Stone Removal,3,Dr. Moore,3.4
+88,Male,Urology,Kidney Stone Removal,1,Dr. Jones,3.2
+53,Female,Oncology,Lung Resection,3,Dr. Smith,3.6
+32,Female,Cardiology,Pacemaker Implantation,5,Dr. Miller,4.9
+65,Male,Urology,Kidney Stone Removal,4,Dr. Lopez,4.2
+44,Male,Orthopedics,Knee Replacement,5,Dr. Jackson,3.1
+71,Male,Neurology,Brain Surgery,5,Dr. Brown,4.2
+35,Female,Cardiology,Pacemaker Implantation,5,Dr. Miller,4.9
+40,Female,Orthopedics,Rotator Cuff Repair,1,Dr. Martinez,3
+62,Male,Urology,Prostatectomy,2,Dr. Lopez,3.3
+87,Female,Urology,Bladder Surgery,3,Dr. Moore,3
+51,Male,Orthopedics,Knee Replacement,3,Dr. Hernandez,3.6
+66,Male,Neurology,Brain Surgery,3,Dr. Brown,3.3
+64,Female,Neurology,Spinal Fusion,4,Dr. Davis,4.8
+90,Male,Urology,Prostatectomy,1,Dr. Taylor,4.9
+80,Female,Neurology,Brain Surgery,1,Dr. Garcia,4.9
+21,Female,Urology,Kidney Stone Removal,1,Dr. Rodriguez,4.3
+70,Male,Oncology,Mastectomy,3,Dr. Anderson,3.9
+20,Male,Oncology,Mastectomy,5,Dr. Smith,4.4
+43,Male,Oncology,Colonoscopy,4,Dr. Johnson,4.6
+48,Female,Orthopedics,Rotator Cuff Repair,1,Dr. Hernandez,3.4
+32,Male,Oncology,Colonoscopy,3,Dr. Johnson,4.9
+48,Female,Urology,Prostatectomy,5,Dr. Jones,5
+62,Female,Neurology,Deep Brain Stimulation,5,Dr. Davis,3.9
+81,Female,Urology,Kidney Stone Removal,5,Dr. Jones,3.1
+21,Female,Urology,Prostatectomy,3,Dr. Jones,4.8
+44,Female,Cardiology,Pacemaker Implantation,5,Dr. Thomas,3.2
+26,Male,Cardiology,Heart Bypass Surgery,3,Dr. Miller,3.6
+36,Male,Orthopedics,Rotator Cuff Repair,1,Dr. Martinez,3.6
+89,Female,Urology,Bladder Surgery,5,Dr. Jones,4.4
+50,Female,Orthopedics,Knee Replacement,4,Dr. Martinez,4.7
+18,Female,Urology,Kidney Stone Removal,5,Dr. Moore,3.7
+41,Male,Orthopedics,Rotator Cuff Repair,5,Dr. White,4.8
+30,Female,Cardiology,Angioplasty,1,Dr. Wilson,4.1
+72,Female,Oncology,Mastectomy,2,Dr. Anderson,4.7
+77,Male,Orthopedics,Rotator Cuff Repair,2,Dr. Jackson,3.1
+63,Female,Urology,Kidney Stone Removal,5,Dr. Taylor,4.3
+80,Female,Urology,Prostatectomy,2,Dr. Rodriguez,3.9
+80,Male,Cardiology,Pacemaker Implantation,3,Dr. Wilson,4.3
+49,Female,Urology,Kidney Stone Removal,3,Dr. Moore,3.5
+29,Female,Oncology,Colonoscopy,1,Dr. Anderson,3.9
+24,Female,Urology,Bladder Surgery,3,Dr. Lopez,4.7
+23,Female,Oncology,Mastectomy,5,Dr. Johnson,4.8
+26,Female,Urology,Kidney Stone Removal,3,Dr. Rodriguez,4.3
+73,Male,Orthopedics,Knee Replacement,3,Dr. White,3.9
+49,Female,Urology,Prostatectomy,5,Dr. Lopez,4.3
+45,Male,Orthopedics,Hip Replacement,2,Dr. Hernandez,3.2
+27,Female,Orthopedics,Knee Replacement,4,Dr. Gonzalez,4.8
+71,Female,Orthopedics,Rotator Cuff Repair,2,Dr. Martinez,4.5
+31,Male,Oncology,Mastectomy,2,Dr. Johnson,3.1
+68,Female,Urology,Kidney Stone Removal,4,Dr. Rodriguez,3.4
+55,Male,Orthopedics,Rotator Cuff Repair,2,Dr. Hernandez,4.4
+85,Female,Urology,Kidney Stone Removal,2,Dr. Moore,4.7
+61,Female,Orthopedics,Knee Replacement,5,Dr. Martinez,3
+25,Female,Neurology,Deep Brain Stimulation,5,Dr. Garcia,3.7
+37,Female,Oncology,Colonoscopy,3,Dr. Johnson,4.5
+29,Male,Cardiology,Pacemaker Implantation,1,Dr. Miller,3.1
+70,Female,Urology,Prostatectomy,3,Dr. Taylor,3.6
+52,Female,Cardiology,Angioplasty,5,Dr. Wilson,4
+76,Male,Cardiology,Heart Bypass Surgery,1,Dr. Thomas,4.5
+77,Male,Cardiology,Pacemaker Implantation,3,Dr. Williams,4.8
+67,Female,Cardiology,Pacemaker Implantation,3,Dr. Wilson,3.6
+21,Female,Cardiology,Heart Bypass Surgery,3,Dr. Miller,4.3
+26,Female,Orthopedics,Hip Replacement,4,Dr. Martinez,4.7
+75,Male,Cardiology,Heart Bypass Surgery,3,Dr. Miller,3.5
+36,Male,Cardiology,Heart Bypass Surgery,1,Dr. Williams,5
+27,Female,Orthopedics,Hip Replacement,3,Dr. White,4.6
+23,Male,Orthopedics,Knee Replacement,2,Dr. Hernandez,3.1
+74,Female,Neurology,Deep Brain Stimulation,1,Dr. Brown,3.5
+41,Female,Orthopedics,Rotator Cuff Repair,4,Dr. Jackson,4.9
+82,Male,Orthopedics,Hip Replacement,5,Dr. Gonzalez,4.2
+81,Male,Orthopedics,Hip Replacement,2,Dr. Gonzalez,4.6
+27,Male,Oncology,Colonoscopy,3,Dr. Johnson,3.4
+67,Male,Urology,Bladder Surgery,1,Dr. Jones,3.5
+32,Female,Urology,Kidney Stone Removal,3,Dr. Rodriguez,4
+32,Female,Orthopedics,Rotator Cuff Repair,3,Dr. Gonzalez,3.4
+66,Female,Urology,Prostatectomy,3,Dr. Jones,4.5
+31,Male,Neurology,Deep Brain Stimulation,4,Dr. Davis,4.7
+83,Male,Cardiology,Angioplasty,3,Dr. Miller,4.7
+58,Female,Cardiology,Heart Bypass Surgery,2,Dr. Wilson,4.8
+80,Male,Neurology,Deep Brain Stimulation,2,Dr. Davis,4.5
+37,Male,Cardiology,Heart Bypass Surgery,2,Dr. Williams,3.3
+61,Male,Urology,Prostatectomy,1,Dr. Lopez,3
+51,Female,Oncology,Colonoscopy,5,Dr. Johnson,4.1
+51,Male,Oncology,Lung Resection,3,Dr. Anderson,3.2
+43,Male,Orthopedics,Hip Replacement,5,Dr. Jackson,4.7
+86,Female,Neurology,Brain Surgery,5,Dr. Brown,4.8
+74,Male,Cardiology,Angioplasty,2,Dr. Wilson,4.9
+71,Female,Oncology,Lung Resection,5,Dr. Johnson,3.5
+50,Female,Cardiology,Angioplasty,2,Dr. Thomas,4.8
+44,Male,Urology,Kidney Stone Removal,1,Dr. Moore,4.6
+21,Male,Oncology,Mastectomy,5,Dr. Johnson,3.7
+22,Male,Urology,Bladder Surgery,4,Dr. Moore,5
+26,Male,Cardiology,Angioplasty,3,Dr. Williams,3.8
+38,Female,Orthopedics,Hip Replacement,4,Dr. Hernandez,3.6
+88,Male,Urology,Prostatectomy,2,Dr. Moore,4.8
+23,Male,Cardiology,Pacemaker Implantation,4,Dr. Thomas,4
+80,Male,Orthopedics,Rotator Cuff Repair,1,Dr. Jackson,4.6
+88,Male,Neurology,Spinal Fusion,3,Dr. Garcia,3.8
+75,Female,Urology,Bladder Surgery,1,Dr. Lopez,4
+67,Male,Orthopedics,Rotator Cuff Repair,4,Dr. White,3
+27,Male,Urology,Prostatectomy,4,Dr. Taylor,3.8
+51,Male,Urology,Bladder Surgery,5,Dr. Rodriguez,3.7
+54,Female,Urology,Prostatectomy,5,Dr. Taylor,3.2
+38,Female,Urology,Kidney Stone Removal,5,Dr. Jones,4.5
+78,Female,Cardiology,Heart Bypass Surgery,3,Dr. Miller,3.9
+25,Female,Orthopedics,Hip Replacement,2,Dr. Martinez,3.6
+82,Male,Urology,Prostatectomy,3,Dr. Moore,4.5
+65,Female,Urology,Kidney Stone Removal,4,Dr. Lopez,3.7
+66,Male,Orthopedics,Knee Replacement,3,Dr. Hernandez,3.6
+84,Male,Urology,Prostatectomy,3,Dr. Lopez,4.3
+58,Female,Orthopedics,Knee Replacement,3,Dr. Martinez,3.8
+67,Female,Urology,Bladder Surgery,2,Dr. Jones,4.5
+86,Male,Urology,Kidney Stone Removal,5,Dr. Lopez,5
+21,Male,Cardiology,Pacemaker Implantation,4,Dr. Miller,3.1
+27,Female,Oncology,Mastectomy,1,Dr. Anderson,4.5
+59,Male,Cardiology,Heart Bypass Surgery,1,Dr. Miller,3.6
+32,Female,Oncology,Colonoscopy,5,Dr. Smith,4.8
+79,Male,Urology,Kidney Stone Removal,4,Dr. Lopez,4
+76,Female,Neurology,Spinal Fusion,5,Dr. Davis,3.1
+39,Female,Neurology,Spinal Fusion,2,Dr. Brown,3.5
+51,Female,Cardiology,Pacemaker Implantation,3,Dr. Thomas,3.4
+85,Male,Orthopedics,Hip Replacement,1,Dr. Martinez,5
+84,Male,Cardiology,Pacemaker Implantation,1,Dr. Williams,4.7
+54,Female,Cardiology,Pacemaker Implantation,2,Dr. Thomas,4.2
+52,Female,Urology,Kidney Stone Removal,4,Dr. Lopez,3.6
+84,Male,Urology,Kidney Stone Removal,4,Dr. Jones,3.2
+44,Male,Oncology,Colonoscopy,4,Dr. Anderson,4.9
+63,Male,Urology,Prostatectomy,2,Dr. Jones,3.6
+65,Female,Orthopedics,Hip Replacement,5,Dr. Hernandez,3.8
+48,Male,Cardiology,Heart Bypass Surgery,4,Dr. Wilson,4.9
+30,Female,Urology,Bladder Surgery,1,Dr. Taylor,4.4
+78,Female,Orthopedics,Rotator Cuff Repair,5,Dr. White,4.1
+73,Female,Cardiology,Heart Bypass Surgery,2,Dr. Miller,3.8
+58,Female,Orthopedics,Knee Replacement,1,Dr. Martinez,4.4
+83,Male,Orthopedics,Rotator Cuff Repair,4,Dr. Hernandez,3.1
+19,Female,Urology,Bladder Surgery,2,Dr. Lopez,3.5
+35,Male,Neurology,Spinal Fusion,1,Dr. Garcia,3.2
+40,Female,Urology,Prostatectomy,4,Dr. Rodriguez,4.3
+86,Female,Neurology,Spinal Fusion,2,Dr. Garcia,4.3
+31,Female,Cardiology,Pacemaker Implantation,1,Dr. Williams,4.5
+58,Male,Cardiology,Pacemaker Implantation,2,Dr. Wilson,4.3
+49,Female,Cardiology,Pacemaker Implantation,1,Dr. Williams,3.7
+31,Male,Urology,Prostatectomy,2,Dr. Moore,3.3
+41,Female,Urology,Bladder Surgery,4,Dr. Moore,4.2
+25,Male,Urology,Kidney Stone Removal,1,Dr. Jones,4.4
+54,Female,Urology,Prostatectomy,5,Dr. Jones,3.6
+65,Female,Neurology,Spinal Fusion,4,Dr. Brown,3.5
+84,Male,Neurology,Spinal Fusion,3,Dr. Garcia,3.7
+34,Female,Neurology,Brain Surgery,2,Dr. Brown,3.4
+62,Female,Neurology,Brain Surgery,5,Dr. Davis,3.3
+37,Female,Oncology,Lung Resection,3,Dr. Smith,4.8
+26,Female,Cardiology,Heart Bypass Surgery,4,Dr. Williams,3.8
+45,Male,Orthopedics,Hip Replacement,1,Dr. White,3.7
+23,Female,Urology,Bladder Surgery,4,Dr. Lopez,3.8
+62,Male,Urology,Kidney Stone Removal,1,Dr. Jones,4.5
+24,Female,Cardiology,Pacemaker Implantation,4,Dr. Wilson,5
+89,Female,Oncology,Mastectomy,4,Dr. Anderson,4.6
+56,Female,Oncology,Mastectomy,2,Dr. Smith,4.8
+55,Female,Orthopedics,Rotator Cuff Repair,3,Dr. Gonzalez,4.6
+78,Male,Oncology,Mastectomy,1,Dr. Johnson,4.1
+28,Female,Urology,Bladder Surgery,4,Dr. Taylor,4.5
+41,Female,Urology,Kidney Stone Removal,3,Dr. Lopez,3.6
+54,Male,Urology,Prostatectomy,1,Dr. Taylor,3
+57,Female,Cardiology,Pacemaker Implantation,3,Dr. Thomas,4.1
+70,Male,Orthopedics,Hip Replacement,3,Dr. Hernandez,3.5
+19,Male,Urology,Prostatectomy,5,Dr. Taylor,3.4
+68,Female,Oncology,Lung Resection,3,Dr. Smith,3.1
+21,Female,Cardiology,Angioplasty,1,Dr. Thomas,4.6
+48,Male,Cardiology,Heart Bypass Surgery,4,Dr. Williams,3.4
+43,Male,Neurology,Deep Brain Stimulation,5,Dr. Garcia,4.4
+68,Male,Urology,Prostatectomy,3,Dr. Jones,5
+33,Male,Oncology,Mastectomy,3,Dr. Smith,3.1
+75,Female,Urology,Prostatectomy,4,Dr. Taylor,3.6
+51,Female,Neurology,Brain Surgery,2,Dr. Brown,3.6
+53,Male,Orthopedics,Rotator Cuff Repair,2,Dr. Jackson,4.4
+90,Female,Oncology,Lung Resection,1,Dr. Smith,3.1
+61,Female,Neurology,Spinal Fusion,2,Dr. Garcia,4.9
+82,Male,Cardiology,Heart Bypass Surgery,3,Dr. Wilson,3.7
+40,Female,Cardiology,Pacemaker Implantation,4,Dr. Williams,3.2
+82,Female,Neurology,Brain Surgery,3,Dr. Davis,3.4
+56,Male,Neurology,Spinal Fusion,3,Dr. Garcia,3.1
+77,Male,Urology,Prostatectomy,4,Dr. Taylor,3.9
+79,Female,Orthopedics,Knee Replacement,5,Dr. Martinez,4.8
+55,Female,Cardiology,Pacemaker Implantation,3,Dr. Wilson,3.1
+47,Male,Urology,Kidney Stone Removal,1,Dr. Rodriguez,4.8
+85,Female,Orthopedics,Knee Replacement,4,Dr. Jackson,4.3
+73,Female,Orthopedics,Rotator Cuff Repair,3,Dr. Martinez,4.6
+42,Female,Cardiology,Angioplasty,1,Dr. Wilson,3.5
+79,Male,Orthopedics,Hip Replacement,1,Dr. White,4.2
+47,Male,Oncology,Colonoscopy,3,Dr. Anderson,4
+78,Male,Cardiology,Pacemaker Implantation,5,Dr. Thomas,4.7
+56,Male,Urology,Kidney Stone Removal,2,Dr. Moore,4.7
+26,Female,Neurology,Deep Brain Stimulation,1,Dr. Brown,3.5
+56,Female,Orthopedics,Knee Replacement,5,Dr. Martinez,3.8
+62,Female,Cardiology,Heart Bypass Surgery,4,Dr. Thomas,4.8
+19,Male,Orthopedics,Hip Replacement,1,Dr. White,3.3
+80,Female,Orthopedics,Knee Replacement,3,Dr. Hernandez,3.2
+82,Male,Orthopedics,Rotator Cuff Repair,4,Dr. Martinez,3.2
+26,Female,Urology,Bladder Surgery,5,Dr. Jones,3.4
+63,Male,Urology,Kidney Stone Removal,1,Dr. Moore,4.6
+23,Male,Oncology,Colonoscopy,4,Dr. Anderson,3.5
+72,Male,Orthopedics,Knee Replacement,2,Dr. Martinez,3.6
+53,Female,Orthopedics,Knee Replacement,2,Dr. Hernandez,3.7
+36,Male,Neurology,Deep Brain Stimulation,1,Dr. Brown,3.5
+79,Male,Orthopedics,Knee Replacement,5,Dr. Jackson,3.9
+84,Female,Urology,Prostatectomy,2,Dr. Moore,3
+22,Female,Oncology,Colonoscopy,2,Dr. Johnson,3.8
+72,Female,Urology,Kidney Stone Removal,1,Dr. Moore,3.3
+55,Female,Cardiology,Angioplasty,4,Dr. Thomas,4.5
+59,Female,Oncology,Lung Resection,4,Dr. Anderson,4.6
+20,Male,Orthopedics,Knee Replacement,3,Dr. White,3.9
+86,Female,Urology,Bladder Surgery,3,Dr. Lopez,4.9
+58,Female,Cardiology,Pacemaker Implantation,4,Dr. Miller,3.8
+83,Female,Orthopedics,Knee Replacement,5,Dr. Gonzalez,4.6
+41,Female,Urology,Bladder Surgery,3,Dr. Moore,3.6
+84,Male,Orthopedics,Rotator Cuff Repair,4,Dr. Hernandez,3.4
+33,Female,Neurology,Spinal Fusion,4,Dr. Davis,4.2
+74,Female,Cardiology,Heart Bypass Surgery,5,Dr. Miller,4.2
+34,Female,Urology,Kidney Stone Removal,3,Dr. Rodriguez,3.5
+70,Female,Orthopedics,Rotator Cuff Repair,4,Dr. Gonzalez,3.7
+83,Male,Cardiology,Angioplasty,1,Dr. Williams,4.1
+65,Female,Orthopedics,Rotator Cuff Repair,4,Dr. Hernandez,3.4
+52,Male,Cardiology,Pacemaker Implantation,5,Dr. Thomas,4.7
+50,Male,Orthopedics,Knee Replacement,5,Dr. Hernandez,4
+58,Female,Oncology,Lung Resection,4,Dr. Smith,3.7
+69,Male,Oncology,Mastectomy,3,Dr. Smith,4
+31,Male,Urology,Prostatectomy,5,Dr. Jones,4.5
+22,Male,Urology,Bladder Surgery,2,Dr. Rodriguez,4.6
+67,Male,Neurology,Brain Surgery,5,Dr. Garcia,3.5
+45,Female,Urology,Kidney Stone Removal,5,Dr. Taylor,3.3
+52,Male,Orthopedics,Rotator Cuff Repair,3,Dr. Jackson,4.2
+29,Male,Oncology,Mastectomy,2,Dr. Anderson,4
+26,Female,Urology,Kidney Stone Removal,5,Dr. Lopez,4.9
+24,Female,Cardiology,Pacemaker Implantation,3,Dr. Thomas,4
+50,Male,Orthopedics,Hip Replacement,5,Dr. Jackson,3.5
+69,Female,Cardiology,Angioplasty,4,Dr. Miller,4.1
+67,Male,Urology,Bladder Surgery,3,Dr. Lopez,4.5
+31,Female,Urology,Kidney Stone Removal,1,Dr. Taylor,3.8
+34,Female,Cardiology,Heart Bypass Surgery,4,Dr. Williams,3.2
+80,Female,Oncology,Lung Resection,2,Dr. Anderson,3.1
+79,Female,Orthopedics,Rotator Cuff Repair,4,Dr. Gonzalez,4.2
+59,Male,Cardiology,Heart Bypass Surgery,2,Dr. Miller,3.6
+86,Male,Neurology,Deep Brain Stimulation,5,Dr. Davis,3.6
+20,Male,Urology,Prostatectomy,5,Dr. Taylor,4.3
+76,Male,Orthopedics,Knee Replacement,3,Dr. Gonzalez,4.6
+67,Male,Cardiology,Heart Bypass Surgery,4,Dr. Thomas,5
+50,Female,Oncology,Lung Resection,5,Dr. Anderson,3.8
+72,Male,Urology,Kidney Stone Removal,4,Dr. Jones,3.2
+23,Male,Urology,Prostatectomy,4,Dr. Moore,3.3
+37,Female,Orthopedics,Hip Replacement,2,Dr. Martinez,3.9
+23,Female,Neurology,Deep Brain Stimulation,1,Dr. Brown,3.2
+85,Male,Oncology,Mastectomy,4,Dr. Johnson,4.1
+56,Female,Urology,Kidney Stone Removal,5,Dr. Moore,4.9
+21,Female,Cardiology,Pacemaker Implantation,3,Dr. Miller,3.4
+60,Female,Neurology,Spinal Fusion,3,Dr. Davis,4.7
+75,Female,Orthopedics,Rotator Cuff Repair,1,Dr. Gonzalez,4.4
+51,Male,Oncology,Mastectomy,4,Dr. Anderson,3.3
+80,Male,Orthopedics,Rotator Cuff Repair,2,Dr. Jackson,3.4
+59,Male,Urology,Bladder Surgery,3,Dr. Taylor,4.3
+69,Female,Orthopedics,Hip Replacement,1,Dr. Gonzalez,3.2
+54,Male,Orthopedics,Hip Replacement,5,Dr. Gonzalez,4
+32,Female,Neurology,Deep Brain Stimulation,3,Dr. Davis,4.4
+49,Female,Urology,Prostatectomy,5,Dr. Moore,4.6
+45,Male,Orthopedics,Knee Replacement,4,Dr. Jackson,3.1
+20,Female,Neurology,Brain Surgery,1,Dr. Brown,3.6
+70,Male,Urology,Kidney Stone Removal,2,Dr. Taylor,4
+53,Female,Oncology,Lung Resection,1,Dr. Johnson,4.5
+19,Male,Orthopedics,Hip Replacement,5,Dr. Jackson,3.8
+60,Female,Cardiology,Pacemaker Implantation,3,Dr. Thomas,4.6
+79,Female,Urology,Bladder Surgery,1,Dr. Lopez,4.7
+86,Male,Neurology,Spinal Fusion,4,Dr. Brown,3.7
+70,Female,Oncology,Mastectomy,5,Dr. Johnson,4.3
+69,Female,Cardiology,Pacemaker Implantation,4,Dr. Wilson,3.6
+80,Male,Orthopedics,Knee Replacement,4,Dr. Jackson,3.9
+72,Male,Orthopedics,Knee Replacement,3,Dr. Gonzalez,3.8
+72,Female,Cardiology,Angioplasty,1,Dr. Wilson,3.7
+77,Male,Urology,Prostatectomy,2,Dr. Taylor,3.3
+72,Male,Oncology,Lung Resection,2,Dr. Johnson,4.2
+38,Female,Orthopedics,Rotator Cuff Repair,3,Dr. Jackson,3.5
+33,Female,Urology,Kidney Stone Removal,1,Dr. Rodriguez,3.2
+88,Male,Oncology,Lung Resection,1,Dr. Smith,3.7
+56,Female,Cardiology,Angioplasty,2,Dr. Wilson,3.7
+41,Male,Urology,Prostatectomy,3,Dr. Moore,3.4
+27,Female,Orthopedics,Hip Replacement,3,Dr. White,4
+49,Male,Urology,Prostatectomy,5,Dr. Lopez,4.1
+76,Female,Urology,Bladder Surgery,1,Dr. Rodriguez,3
+44,Female,Urology,Kidney Stone Removal,3,Dr. Taylor,3.4
+37,Female,Urology,Kidney Stone Removal,3,Dr. Jones,3.2
+55,Male,Neurology,Deep Brain Stimulation,1,Dr. Garcia,3.7
+19,Female,Cardiology,Angioplasty,3,Dr. Miller,3.7
+21,Male,Cardiology,Angioplasty,3,Dr. Miller,3.2
+54,Female,Cardiology,Angioplasty,4,Dr. Miller,4.5
+45,Female,Oncology,Lung Resection,1,Dr. Smith,4.2
+70,Female,Cardiology,Angioplasty,4,Dr. Miller,4.7
+52,Female,Urology,Kidney Stone Removal,1,Dr. Moore,4.9
+67,Male,Neurology,Deep Brain Stimulation,5,Dr. Brown,4.9
+39,Female,Urology,Kidney Stone Removal,5,Dr. Rodriguez,4.3
+40,Male,Neurology,Brain Surgery,2,Dr. Brown,3.3
+24,Female,Orthopedics,Hip Replacement,2,Dr. Martinez,4.3
+27,Male,Orthopedics,Hip Replacement,2,Dr. White,4.9
+37,Female,Cardiology,Angioplasty,4,Dr. Miller,4.2
+78,Male,Orthopedics,Hip Replacement,3,Dr. Martinez,3.7
+22,Male,Orthopedics,Hip Replacement,1,Dr. Gonzalez,4.3
+54,Female,Orthopedics,Knee Replacement,4,Dr. White,3.3
+57,Female,Urology,Kidney Stone Removal,1,Dr. Lopez,3.5
+56,Male,Cardiology,Pacemaker Implantation,4,Dr. Thomas,4.3
+74,Male,Cardiology,Angioplasty,1,Dr. Thomas,3
+53,Male,Neurology,Brain Surgery,1,Dr. Garcia,3.9
+32,Male,Neurology,Deep Brain Stimulation,2,Dr. Davis,3.1
+45,Male,Urology,Prostatectomy,1,Dr. Rodriguez,4.9
+25,Female,Orthopedics,Rotator Cuff Repair,1,Dr. Gonzalez,4.3
+55,Male,Neurology,Spinal Fusion,4,Dr. Davis,4
+51,Female,Cardiology,Angioplasty,4,Dr. Williams,3.1
+39,Male,Urology,Bladder Surgery,2,Dr. Rodriguez,4
+69,Female,Urology,Prostatectomy,3,Dr. Moore,4
+66,Male,Urology,Prostatectomy,3,Dr. Jones,3.3
+43,Male,Urology,Bladder Surgery,1,Dr. Taylor,3.4
+75,Female,Orthopedics,Knee Replacement,2,Dr. White,4
+26,Male,Neurology,Brain Surgery,5,Dr. Garcia,3.4
+29,Male,Cardiology,Pacemaker Implantation,4,Dr. Williams,4.6
+24,Female,Cardiology,Angioplasty,1,Dr. Thomas,3.8
+52,Male,Neurology,Spinal Fusion,3,Dr. Garcia,3.9
+24,Female,Urology,Kidney Stone Removal,1,Dr. Moore,4.3
+83,Male,Orthopedics,Rotator Cuff Repair,2,Dr. Jackson,3.2
+69,Male,Neurology,Brain Surgery,2,Dr. Davis,4.5
+34,Female,Oncology,Colonoscopy,4,Dr. Johnson,4
+20,Female,Orthopedics,Hip Replacement,5,Dr. White,4.5
+78,Female,Orthopedics,Knee Replacement,2,Dr. Martinez,4.8
+33,Female,Oncology,Colonoscopy,3,Dr. Anderson,4
+29,Male,Orthopedics,Hip Replacement,3,Dr. White,4
+26,Female,Oncology,Colonoscopy,5,Dr. Smith,4
+44,Male,Cardiology,Heart Bypass Surgery,1,Dr. Miller,3.4
+30,Male,Urology,Kidney Stone Removal,5,Dr. Jones,3.1
+74,Female,Urology,Bladder Surgery,1,Dr. Moore,4

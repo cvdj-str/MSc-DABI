@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Appointment Booking Result</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f8ff; /* Light blue background */
+            color: #333;
+            margin: 0;
+            padding: 20px;
+        }
+        .container {
+            max-width: 600px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #fff; /* White background */
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Soft shadow effect */
+        }
+        h1 {
+            text-align: center;
+            color: #333;
+        }
+        p {
+            text-align: center;
+        }
+        .success {
+            color: #28a745; /* Green color for success message */
+        }
+        .error {
+            color: #dc3545; /* Red color for error message */
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Appointment Booking Result</h1>
+        {% if success %}
+            <p class="success">{{ message }}</p>
+        {% else %}
+            <p class="error">{{ message }}</p>
+        {% endif %}
+    </div>
+</body>
+</html>

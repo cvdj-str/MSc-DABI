@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Booking Form</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <style>
+        body {
+            background-color: #e0f7fa; /* Sky blue background */
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        h1 {
+            text-align: center;
+            margin-top: 20px;
+        }
+
+        form {
+            background-color: #fff;
+            padding: 20px;
+            margin: 20px auto;
+            max-width: 400px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        label {
+            display: block;
+            margin-bottom: 10px;
+            font-weight: bold;
+        }
+
+        input[type="text"],
+        input[type="number"] {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 20px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            box-sizing: border-box;
+        }
+
+        button[type="submit"] {
+            width: 100%;
+            padding: 10px;
+            background-color: #4caf50;
+            color: #fff;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+
+        button[type="submit"]:hover {
+            background-color: #45a049;
+        }
+
+        .back-link {
+            text-align: center;
+            margin-top: 20px;
+        }
+
+        .back-link a {
+            display: inline-block;
+            padding: 10px 20px;
+            background-color: #4caf50;
+            color: #fff;
+            text-decoration: none;
+            border-radius: 5px;
+            transition: background-color 0.3s ease;
+        }
+
+        .back-link a:hover {
+            background-color: #45a049;
+        }
+
+        .back-link i {
+            margin-right: 5px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Booking Form</h1>
+    <form method="POST">
+        <input type="hidden" name="surgeon_name" value="{{ surgeon_name }}">
+        <input type="hidden" name="surgery_type" value="{{ surgery_type }}">
+        <label for="patient_name">Patient Name:</label>
+        <input type="text" name="patient_name" placeholder="Enter patient name" required>
+        <label for="date">Date (dd-mm-yyyy):</label>
+        <input type="text" name="date" id="dateInput" placeholder="dd-mm-yyyy" required>
+        <label for="duration_hours">Duration (Hours):</label>
+        <input type="number" name="duration_hours" placeholder="Enter duration in hours" required>
+        <label for="num_support_staff">Number of Support Staff:</label>
+        <input type="number" name="num_support_staff" placeholder="Enter number of support staff" required>
+        <button type="submit">Submit Booking</button>
+    </form>
+    <div class="back-link">
+        <a href="/surgeon_portal"><i class="fas fa-arrow-left"></i> Back to Surgeon Portal</a>
+    </div>
+</body>
+</html>

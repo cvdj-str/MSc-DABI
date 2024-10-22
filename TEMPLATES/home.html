@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CCC - Care Connect and Co-ordinate</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+    <style>
+        /* Additional styles */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-image: url('{{ url_for('static', filename='home.png') }}'); /* Background image */
+            background-size: cover; /* Cover the entire background */
+            background-position: center; /* Center the background image */
+            background-repeat: no-repeat; /* Do not repeat the background image */
+            height: 100vh;
+        }
+
+        header {
+            padding: 20px;
+            box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1); /* Add shadow effect */
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .logo img {
+            height: 80px; /* Adjust logo height */
+        }
+
+        nav {
+            padding: 10px 0;
+            text-align: center;
+            box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1); /* Add shadow effect */
+            background-color: rgba(255, 255, 255, 0.5); /* Transparent white background */
+        }
+
+        nav ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+        }
+
+        nav ul li {
+            display: inline;
+            margin-right: 20px;
+        }
+
+        nav ul li a {
+            color: #333; /* Dark text color */
+            text-decoration: none;
+            font-weight: bold;
+            transition: color 0.3s; /* Smooth color transition on hover */
+        }
+
+        nav ul li a:hover {
+            color: #4CAF50; /* Green color on hover */
+        }
+
+        main {
+            padding: 20px;
+            text-align: center;
+        }
+
+        .description {
+            padding: 20px;
+            margin-bottom: 20px;
+            border-radius: 5px;
+            color: #333; /* Dark text color */
+            background-color: rgba(255, 255, 255, 0.8); /* Transparent white background */
+        }
+
+        .description h1 {
+            margin-top: 0;
+        }
+
+        .description p {
+            font-size: 18px;
+            line-height: 1.5;
+            animation: slideIn 20s infinite linear; /* Adjusted animation properties */
+        }
+
+        img.organization-image {
+            max-width: 100%;
+            height: auto;
+            border-radius: 5px;
+            box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1); /* Add shadow effect */
+        }
+
+        /* Style for the login links */
+        .login-link {
+            display: inline-block;
+            background-color: #4CAF50; /* Green background */
+            color: #fff; /* White text color */
+            padding: 10px 20px;
+            border-radius: 5px;
+            text-decoration: none;
+            font-weight: bold;
+            margin: 10px;
+            transition: background-color 0.3s; /* Smooth background color transition on hover */
+        }
+
+        /* Hover effect for the login links */
+        .login-link:hover {
+            background-color: #45a049; /* Darker green color on hover */
+        }
+
+        /* Slow down the running text animation */
+        @keyframes slideIn {
+            from {
+                transform: translateX(100%); /* Start from the right */
+            }
+            to {
+                transform: translateX(-100%); /* Move to the left */
+            }
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="{{ url_for('register_patient') }}" class="login-link">Patient Register</a></li>
+            <li><a href="{{ url_for('patient_login') }}" class="login-link">Patient Login</a></li>
+            <li><a href="{{ url_for('manager_login') }}" class="login-link">Manager Login</a></li>
+            <li><a href="{{ url_for('staff_login') }}" class="login-link">Staff Login</a></li>
+        </ul>
+    </nav>
+    <main>
+        <div class="description">
+            <h1>Welcome to CCC - Care Connect and Co-ordinate</h1>
+            <p>At CCC - Care Connect and Co-ordinate, we're dedicated to providing exceptional healthcare services with compassion and expertise. As a leading healthcare institution, we prioritize the well-being and comfort of our patients above all else.</p>
+            
+            <h2>Our Commitment to Excellence</h2>
+            <p>With state-of-the-art facilities and a team of highly skilled medical professionals, we offer a comprehensive range of medical services to meet the diverse needs of our community. From routine check-ups to specialized treatments, we strive to deliver the highest standard of care at every stage of your health journey.</p>
+            
+            <h2>Compassionate Care, Close to Home</h2>
+            <p>We understand that navigating the world of healthcare can be overwhelming, which is why we're here to guide you every step of the way. Our friendly and knowledgeable staff are committed to providing personalized attention and support to ensure that you receive the care you deserve.</p>
+            
+            <h2>Services We Offer</h2>
+            <p>Our services include:</p>
+            <ul>
+                <li>Booking appointments for patients</li>
+                <li>Managing staff appointments</li>
+                <li>Automatically booking theatre and support staff for surgeons</li>
+                <li>Suggesting surgeons based on requirements</li>
+            </ul>
+            
+            <h2>Contact Us</h2>
+            <p>If you have any inquiries or need assistance, feel free to contact us at:</p>
+            <ul>
+                <li><a href="mailto:VDC5@STUDENT.LE.AC.UK">VDC5@STUDENT.LE.AC.UK</a></li>
+                <li><a href="mailto:TRS15@STUDENT.LE.AC.UK">TRS15@STUDENT.LE.AC.UK</a></li>
+                <li><a href="mailto:RBA12@STUDENT.LE.AC.UK">RBA12@STUDENT.LE.AC.UK</a></li>
+            </ul>
+        </div>
+    </main>
+</body>
+</html>

@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Surgeon Schedule</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #87CEEB; /* Sky blue background */
+            color: #333;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh; /* Ensure the body covers the entire viewport height */
+        }
+        .container {
+            max-width: 800px;
+            padding: 20px;
+            background-color: #fff; /* White background for the container */
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Soft shadow effect */
+            position: relative;
+        }
+        h1 {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        .schedule-card {
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            padding: 15px;
+            margin-bottom: 20px;
+        }
+        .schedule-details {
+            margin-top: 10px;
+        }
+        .schedule-details p {
+            margin: 5px 0;
+        }
+        a {
+            display: block;
+            text-align: center;
+            margin-top: 20px;
+            text-decoration: none;
+            color: #007bff; /* Blue color for links */
+        }
+        .icon {
+            margin-right: 5px;
+        }
+        .username {
+            position: fixed;
+            top: 10px;
+            left: 10px;
+            z-index: 999; /* Ensure it's on top of other elements */
+        }
+        .logout {
+            position: fixed;
+            top: 10px;
+            right: 10px;
+            z-index: 999; /* Ensure it's on top of other elements */
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Surgeon Schedule for {{ user_name }}</h1>
+        {% for schedule in schedules %}
+        <div class="schedule-card">
+            <h2>{{ schedule['Surgery Type'] }}</h2>
+            <div class="schedule-details">
+                <p><strong>Booking ID:</strong> {{ schedule['Booking ID'] }}</p>
+                <p><strong>Date and Time:</strong> {{ schedule['Date and Time'] }}</p>
+                <p><strong>Theatre Assigned:</strong> {{ schedule['Theatre Assigned'] }}</p>
+                <p><strong>Assigned Surgeon:</strong> {{ schedule['Assigned Surgeon'] }}</p>
+                <p><strong>Assigned Supporting Staff:</strong> {{ schedule['Assigned Supporting Staff'] }}</p>
+                <p><strong>Surgery Duration:</strong> {{ schedule['Surgery Duration'] }} Hours</p>
+                <p><strong>Number of Supporting Staff:</strong> {{ schedule['Number of Supporting Staff'] }}</p>
+                <!-- Add more details as needed -->
+            </div>
+        </div>
+        {% endfor %}
+    </div>
+    <p class="username"><i class="fas fa-user icon"></i>{{ username }}</p>
+    <a class="logout" href="{{ url_for('logout') }}"><i class="fas fa-sign-out-alt icon"></i>Logout</a>
+</body>
+</html>
